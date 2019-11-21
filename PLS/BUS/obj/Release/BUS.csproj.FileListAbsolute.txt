@@ -1,0 +1,135 @@
+D:\HOCTAP\WinForm\New folder\22092017\ThatLuangPlaza - Report\BUS\bin\Release\BUS.dll
+D:\HOCTAP\WinForm\New folder\22092017\ThatLuangPlaza - Report\BUS\bin\Release\BUS.pdb
+D:\HOCTAP\WinForm\New folder\22092017\ThatLuangPlaza - Report\BUS\bin\Release\DAL.dll
+D:\HOCTAP\WinForm\New folder\22092017\ThatLuangPlaza - Report\BUS\bin\Release\DAL.pdb
+D:\HOCTAP\WinForm\New folder\22092017\ThatLuangPlaza - Report\BUS\obj\Release\BUS.csprojResolveAssemblyReference.cache
+D:\HOCTAP\WinForm\New folder\22092017\ThatLuangPlaza - Report\BUS\obj\Release\BUS.dll
+D:\HOCTAP\WinForm\New folder\22092017\ThatLuangPlaza - Report\BUS\obj\Release\BUS.pdb
+D:\HOCTAP\WinForm\03102017\PLS\BUS\bin\Release\BUS.dll.config
+D:\HOCTAP\WinForm\03102017\PLS\BUS\bin\Release\BUS.dll
+D:\HOCTAP\WinForm\03102017\PLS\BUS\bin\Release\BUS.pdb
+D:\HOCTAP\WinForm\03102017\PLS\BUS\bin\Release\DAL.dll
+D:\HOCTAP\WinForm\03102017\PLS\BUS\bin\Release\DAL.pdb
+D:\HOCTAP\WinForm\03102017\PLS\BUS\obj\Release\BUS.csprojResolveAssemblyReference.cache
+D:\HOCTAP\WinForm\03102017\PLS\BUS\obj\Release\BUS.dll
+D:\HOCTAP\WinForm\03102017\PLS\BUS\obj\Release\BUS.pdb
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\BUS.dll.config
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\BUS.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\BUS.pdb
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\DAL.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\DevExpress.XtraEditors.v15.1.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\DevExpress.Utils.v15.1.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\DevExpress.Printing.v15.1.Core.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\DevExpress.Data.v15.1.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\DevExpress.Sparkline.v15.1.Core.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\DAL.pdb
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\DevExpress.XtraEditors.v15.1.xml
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\DevExpress.Utils.v15.1.xml
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\DevExpress.Printing.v15.1.Core.xml
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\DevExpress.Data.v15.1.xml
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\DevExpress.Sparkline.v15.1.Core.xml
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\de\DevExpress.XtraEditors.v15.1.resources.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\es\DevExpress.XtraEditors.v15.1.resources.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\ja\DevExpress.XtraEditors.v15.1.resources.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\ru\DevExpress.XtraEditors.v15.1.resources.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\de\DevExpress.Utils.v15.1.resources.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\es\DevExpress.Utils.v15.1.resources.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\ja\DevExpress.Utils.v15.1.resources.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\ru\DevExpress.Utils.v15.1.resources.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\de\DevExpress.Printing.v15.1.Core.resources.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\es\DevExpress.Printing.v15.1.Core.resources.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\ja\DevExpress.Printing.v15.1.Core.resources.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\ru\DevExpress.Printing.v15.1.Core.resources.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\de\DevExpress.Data.v15.1.resources.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\es\DevExpress.Data.v15.1.resources.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\ja\DevExpress.Data.v15.1.resources.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\ru\DevExpress.Data.v15.1.resources.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\de\DevExpress.Sparkline.v15.1.Core.resources.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\es\DevExpress.Sparkline.v15.1.Core.resources.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\ja\DevExpress.Sparkline.v15.1.Core.resources.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\bin\Release\ru\DevExpress.Sparkline.v15.1.Core.resources.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\obj\Release\BUS.csprojResolveAssemblyReference.cache
+D:\HOCTAP\TEST\12032018\PLS\BUS\obj\Release\BUS.dll
+D:\HOCTAP\TEST\12032018\PLS\BUS\obj\Release\BUS.pdb
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\BUS.dll.config
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\BUS.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\BUS.pdb
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\DAL.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\DevExpress.XtraEditors.v15.1.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\DevExpress.Utils.v15.1.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\DevExpress.Printing.v15.1.Core.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\DevExpress.Data.v15.1.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\DevExpress.Sparkline.v15.1.Core.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\DAL.pdb
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\DevExpress.XtraEditors.v15.1.xml
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\DevExpress.Utils.v15.1.xml
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\DevExpress.Printing.v15.1.Core.xml
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\DevExpress.Data.v15.1.xml
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\DevExpress.Sparkline.v15.1.Core.xml
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\de\DevExpress.XtraEditors.v15.1.resources.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\es\DevExpress.XtraEditors.v15.1.resources.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\ja\DevExpress.XtraEditors.v15.1.resources.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\ru\DevExpress.XtraEditors.v15.1.resources.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\de\DevExpress.Utils.v15.1.resources.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\es\DevExpress.Utils.v15.1.resources.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\ja\DevExpress.Utils.v15.1.resources.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\ru\DevExpress.Utils.v15.1.resources.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\de\DevExpress.Printing.v15.1.Core.resources.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\es\DevExpress.Printing.v15.1.Core.resources.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\ja\DevExpress.Printing.v15.1.Core.resources.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\ru\DevExpress.Printing.v15.1.Core.resources.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\de\DevExpress.Data.v15.1.resources.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\es\DevExpress.Data.v15.1.resources.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\ja\DevExpress.Data.v15.1.resources.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\ru\DevExpress.Data.v15.1.resources.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\de\DevExpress.Sparkline.v15.1.Core.resources.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\es\DevExpress.Sparkline.v15.1.Core.resources.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\ja\DevExpress.Sparkline.v15.1.Core.resources.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\bin\Release\ru\DevExpress.Sparkline.v15.1.Core.resources.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\obj\Release\BUS.csprojResolveAssemblyReference.cache
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\obj\Release\BUS.dll
+F:\Solution\winform\Code\PLS_ok\Code PLS\Tháng 09\04092016\BUS\obj\Release\BUS.pdb
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\BUS.dll.config
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\BUS.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\BUS.pdb
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\DAL.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\DevExpress.XtraEditors.v18.2.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\DevExpress.Utils.v18.2.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\DevExpress.Data.v18.2.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\DevExpress.Printing.v18.2.Core.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\DevExpress.Sparkline.v18.2.Core.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\DevExpress.Pdf.v18.2.Core.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\DAL.pdb
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\DevExpress.XtraEditors.v18.2.xml
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\DevExpress.Utils.v18.2.xml
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\DevExpress.Data.v18.2.xml
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\DevExpress.Printing.v18.2.Core.xml
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\DevExpress.Sparkline.v18.2.Core.xml
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\DevExpress.Pdf.v18.2.Core.xml
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\de\DevExpress.XtraEditors.v18.2.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\es\DevExpress.XtraEditors.v18.2.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\ja\DevExpress.XtraEditors.v18.2.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\ru\DevExpress.XtraEditors.v18.2.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\de\DevExpress.Utils.v18.2.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\es\DevExpress.Utils.v18.2.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\ja\DevExpress.Utils.v18.2.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\ru\DevExpress.Utils.v18.2.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\de\DevExpress.Data.v18.2.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\es\DevExpress.Data.v18.2.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\ja\DevExpress.Data.v18.2.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\ru\DevExpress.Data.v18.2.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\de\DevExpress.Printing.v18.2.Core.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\es\DevExpress.Printing.v18.2.Core.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\ja\DevExpress.Printing.v18.2.Core.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\ru\DevExpress.Printing.v18.2.Core.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\de\DevExpress.Sparkline.v18.2.Core.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\es\DevExpress.Sparkline.v18.2.Core.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\ja\DevExpress.Sparkline.v18.2.Core.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\ru\DevExpress.Sparkline.v18.2.Core.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\de\DevExpress.Pdf.v18.2.Core.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\es\DevExpress.Pdf.v18.2.Core.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\ja\DevExpress.Pdf.v18.2.Core.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\bin\Release\ru\DevExpress.Pdf.v18.2.Core.resources.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\obj\Release\BUS.csprojResolveAssemblyReference.cache
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\obj\Release\BUS.dll
+D:\COMPANY\CODE\WINFORM\PLS\PLS\BUS\obj\Release\BUS.pdb

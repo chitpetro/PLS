@@ -1,0 +1,1946 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="StringId.None">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.CaptionError">
+    <value>Error</value>
+  </data>
+  <data name="StringId.InvalidValueText">
+    <value>Invalid Value</value>
+  </data>
+  <data name="StringId.CheckChecked">
+    <value>Checked</value>
+  </data>
+  <data name="StringId.CheckUnchecked">
+    <value>Unchecked</value>
+  </data>
+  <data name="StringId.CheckIndeterminate">
+    <value>Indeterminate</value>
+  </data>
+  <data name="StringId.DateEditToday">
+    <value>Today</value>
+  </data>
+  <data name="StringId.DateEditClear">
+    <value>Clear</value>
+  </data>
+  <data name="StringId.OK">
+    <value>OK</value>
+  </data>
+  <data name="StringId.Cancel">
+    <value>Cancel</value>
+  </data>
+  <data name="StringId.NavigatorFirstButtonHint">
+    <value>First</value>
+  </data>
+  <data name="StringId.NavigatorPreviousButtonHint">
+    <value>Previous</value>
+  </data>
+  <data name="StringId.NavigatorPreviousPageButtonHint">
+    <value>Previous Page</value>
+  </data>
+  <data name="StringId.NavigatorNextButtonHint">
+    <value>Next</value>
+  </data>
+  <data name="StringId.NavigatorNextPageButtonHint">
+    <value>Next Page</value>
+  </data>
+  <data name="StringId.NavigatorLastButtonHint">
+    <value>Last</value>
+  </data>
+  <data name="StringId.NavigatorAppendButtonHint">
+    <value>Append</value>
+  </data>
+  <data name="StringId.NavigatorRemoveButtonHint">
+    <value>Delete</value>
+  </data>
+  <data name="StringId.NavigatorEditButtonHint">
+    <value>Edit</value>
+  </data>
+  <data name="StringId.NavigatorEndEditButtonHint">
+    <value>End Edit</value>
+  </data>
+  <data name="StringId.NavigatorCancelEditButtonHint">
+    <value>Cancel Edit</value>
+  </data>
+  <data name="StringId.NavigatorTextStringFormat">
+    <value>Record {0} of {1}</value>
+  </data>
+  <data name="StringId.PictureEditMenuCut">
+    <value>Cut</value>
+  </data>
+  <data name="StringId.PictureEditMenuCopy">
+    <value>Copy</value>
+  </data>
+  <data name="StringId.PictureEditMenuPaste">
+    <value>Paste</value>
+  </data>
+  <data name="StringId.PictureEditMenuDelete">
+    <value>Delete</value>
+  </data>
+  <data name="StringId.PictureEditMenuLoad">
+    <value>Load</value>
+  </data>
+  <data name="StringId.PictureEditMenuSave">
+    <value>Save</value>
+  </data>
+  <data name="StringId.PictureEditOpenFileFilter">
+    <value>Bitmap Files (*.bmp)|*.bmp|Graphics Interchange Format (*.gif)|*.gif|JPEG File Interchange Format (*.jpg;*.jpeg)|*.jpg;*.jpeg|Icon Files (*.ico)|*.ico|Portable Network Graphics Format (*.png)|*.png|All Picture Files |*.bmp;*.gif;*.jpg;*.jpeg;*.ico;*.png;*.tif|All Files |*.*</value>
+  </data>
+  <data name="StringId.PictureEditSaveFileFilter">
+    <value>Bitmap Files (*.bmp)|*.bmp|Graphics Interchange Format (*.gif)|*.gif|JPEG File Interchange Format (*.jpg)|*.jpg|Portable Network Graphics Format (*.png)|*.png</value>
+  </data>
+  <data name="StringId.PictureEditOpenFileTitle">
+    <value>Open</value>
+  </data>
+  <data name="StringId.PictureEditSaveFileTitle">
+    <value>Save As</value>
+  </data>
+  <data name="StringId.PictureEditOpenFileError">
+    <value>Wrong picture format</value>
+  </data>
+  <data name="StringId.PictureEditOpenFileErrorCaption">
+    <value>Open error</value>
+  </data>
+  <data name="StringId.PictureEditCopyImageError">
+    <value>Could not copy image</value>
+  </data>
+  <data name="StringId.LookUpEditValueIsNull">
+    <value>[EditValue is null]</value>
+  </data>
+  <data name="StringId.LookUpInvalidEditValueType">
+    <value>Invalid LookUpEdit EditValue type.</value>
+  </data>
+  <data name="StringId.LookUpColumnDefaultName">
+    <value>Name</value>
+  </data>
+  <data name="StringId.MaskBoxValidateError">
+    <value>The entered value is incomplete.  Do you want to correct it?
+
+Yes - to the editor and correct the value.
+No - leave the value as is.
+Cancel - reset to the previous value.
+</value>
+  </data>
+  <data name="StringId.UnknownPictureFormat">
+    <value>Unknown picture format</value>
+  </data>
+  <data name="StringId.DataEmpty">
+    <value>No image data</value>
+  </data>
+  <data name="StringId.NotValidArrayLength">
+    <value>Not valid array length.</value>
+  </data>
+  <data name="StringId.ImagePopupEmpty">
+    <value>(Empty)</value>
+  </data>
+  <data name="StringId.ImagePopupPicture">
+    <value>(Picture)</value>
+  </data>
+  <data name="StringId.ColorTabCustom">
+    <value>Custom</value>
+  </data>
+  <data name="StringId.ColorTabWeb">
+    <value>Web</value>
+  </data>
+  <data name="StringId.ColorTabSystem">
+    <value>System</value>
+  </data>
+  <data name="StringId.CalcButtonMC">
+    <value>MC</value>
+  </data>
+  <data name="StringId.CalcButtonMR">
+    <value>MR</value>
+  </data>
+  <data name="StringId.CalcButtonMS">
+    <value>MS</value>
+  </data>
+  <data name="StringId.CalcButtonMx">
+    <value>M+</value>
+  </data>
+  <data name="StringId.CalcButtonSqrt">
+    <value>sqrt</value>
+  </data>
+  <data name="StringId.CalcButtonBack">
+    <value>Back</value>
+  </data>
+  <data name="StringId.CalcButtonCE">
+    <value>CE</value>
+  </data>
+  <data name="StringId.CalcButtonC">
+    <value>C</value>
+  </data>
+  <data name="StringId.CalcError">
+    <value>Calculation Error</value>
+  </data>
+  <data name="StringId.TabHeaderButtonPrev">
+    <value>Scroll Left</value>
+  </data>
+  <data name="StringId.TabHeaderButtonNext">
+    <value>Scroll Right</value>
+  </data>
+  <data name="StringId.TabHeaderButtonClose">
+    <value>Close</value>
+  </data>
+  <data name="StringId.TabHeaderButtonPin">
+    <value>Pin</value>
+  </data>
+  <data name="StringId.TabHeaderButtonUnpin">
+    <value>Unpin</value>
+  </data>
+  <data name="StringId.TabHeaderSelectorButton">
+    <value>Show Window List</value>
+  </data>
+  <data name="StringId.XtraMessageBoxOkButtonText">
+    <value>&amp;OK</value>
+  </data>
+  <data name="StringId.XtraMessageBoxCancelButtonText">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="StringId.XtraMessageBoxYesButtonText">
+    <value>&amp;Yes</value>
+  </data>
+  <data name="StringId.XtraMessageBoxNoButtonText">
+    <value>&amp;No</value>
+  </data>
+  <data name="StringId.XtraMessageBoxAbortButtonText">
+    <value>&amp;Abort</value>
+  </data>
+  <data name="StringId.XtraMessageBoxRetryButtonText">
+    <value>&amp;Retry</value>
+  </data>
+  <data name="StringId.XtraMessageBoxIgnoreButtonText">
+    <value>&amp;Ignore</value>
+  </data>
+  <data name="StringId.TextEditMenuUndo">
+    <value>&amp;Undo</value>
+  </data>
+  <data name="StringId.TextEditMenuCut">
+    <value>Cu&amp;t</value>
+  </data>
+  <data name="StringId.TextEditMenuCopy">
+    <value>&amp;Copy</value>
+  </data>
+  <data name="StringId.TextEditMenuPaste">
+    <value>&amp;Paste</value>
+  </data>
+  <data name="StringId.TextEditMenuDelete">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="StringId.TextEditMenuSelectAll">
+    <value>Select &amp;All</value>
+  </data>
+  <data name="StringId.FilterEditorTabText">
+    <value>Text</value>
+  </data>
+  <data name="StringId.FilterEditorTabVisual">
+    <value>Visual</value>
+  </data>
+  <data name="StringId.FilterShowAll">
+    <value>(Select All)</value>
+  </data>
+  <data name="StringId.FilterGroupAnd">
+    <value>And</value>
+  </data>
+  <data name="StringId.FilterGroupNotAnd">
+    <value>Not And</value>
+  </data>
+  <data name="StringId.FilterGroupNotOr">
+    <value>Not Or</value>
+  </data>
+  <data name="StringId.FilterGroupOr">
+    <value>Or</value>
+  </data>
+  <data name="StringId.FilterClauseAnyOf">
+    <value>Is any of</value>
+  </data>
+  <data name="StringId.FilterClauseBeginsWith">
+    <value>Begins with</value>
+  </data>
+  <data name="StringId.FilterClauseBetween">
+    <value>Is between</value>
+  </data>
+  <data name="StringId.FilterClauseBetweenAnd">
+    <value>and</value>
+  </data>
+  <data name="StringId.FilterClauseContains">
+    <value>Contains</value>
+  </data>
+  <data name="StringId.FilterClauseEndsWith">
+    <value>Ends with</value>
+  </data>
+  <data name="StringId.FilterClauseEquals">
+    <value>Equals</value>
+  </data>
+  <data name="StringId.FilterClauseGreater">
+    <value>Is greater than</value>
+  </data>
+  <data name="StringId.FilterClauseGreaterOrEqual">
+    <value>Is greater than or equal to</value>
+  </data>
+  <data name="StringId.FilterClauseIsNotNull">
+    <value>Is not null</value>
+  </data>
+  <data name="StringId.FilterClauseIsNull">
+    <value>Is null</value>
+  </data>
+  <data name="StringId.FilterClauseIsNotNullOrEmpty">
+    <value>Is not blank</value>
+  </data>
+  <data name="StringId.FilterClauseIsNullOrEmpty">
+    <value>Is blank</value>
+  </data>
+  <data name="StringId.FilterClauseLess">
+    <value>Is less than</value>
+  </data>
+  <data name="StringId.FilterClauseLessOrEqual">
+    <value>Is less than or equal to</value>
+  </data>
+  <data name="StringId.FilterClauseLike">
+    <value>Is like</value>
+  </data>
+  <data name="StringId.FilterClauseNoneOf">
+    <value>Is none of</value>
+  </data>
+  <data name="StringId.FilterClauseNotBetween">
+    <value>Is not between</value>
+  </data>
+  <data name="StringId.FilterClauseDoesNotContain">
+    <value>Does not contain</value>
+  </data>
+  <data name="StringId.FilterClauseDoesNotEqual">
+    <value>Does not equal</value>
+  </data>
+  <data name="StringId.FilterClauseNotLike">
+    <value>Is not like</value>
+  </data>
+  <data name="StringId.FilterEmptyEnter">
+    <value>&lt;enter a value&gt;</value>
+  </data>
+  <data name="StringId.FilterEmptyParameter">
+    <value>&lt;enter a parameter name&gt;</value>
+  </data>
+  <data name="StringId.FilterMenuAddNewParameter">
+    <value>Add Parameter...</value>
+  </data>
+  <data name="StringId.FilterEmptyValue">
+    <value>&lt;empty&gt;</value>
+  </data>
+  <data name="StringId.FilterMenuConditionAdd">
+    <value>Add Condition</value>
+  </data>
+  <data name="StringId.FilterMenuGroupAdd">
+    <value>Add Group</value>
+  </data>
+  <data name="StringId.FilterMenuClearAll">
+    <value>Clear All</value>
+  </data>
+  <data name="StringId.FilterMenuRowRemove">
+    <value>Remove Group</value>
+  </data>
+  <data name="StringId.FilterToolTipNodeAdd">
+    <value>Adds a new condition to this group</value>
+  </data>
+  <data name="StringId.FilterToolTipNodeRemove">
+    <value>Removes this condition</value>
+  </data>
+  <data name="StringId.FilterToolTipNodeAction">
+    <value>Actions</value>
+  </data>
+  <data name="StringId.FilterToolTipValueType">
+    <value>Compare with a value / another field's value</value>
+  </data>
+  <data name="StringId.FilterToolTipElementAdd">
+    <value>Adds a new item to the list</value>
+  </data>
+  <data name="StringId.FilterToolTipKeysAdd">
+    <value>(Use the Insert or Add key)</value>
+  </data>
+  <data name="StringId.FilterToolTipKeysRemove">
+    <value>(Use the Delete or Subtract key)</value>
+  </data>
+  <data name="StringId.ContainerAccessibleEditName">
+    <value>Editing control</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringGroupOperatorAnd">
+    <value>And</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringGroupOperatorOr">
+    <value>Or</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringUnaryOperatorBitwiseNot">
+    <value>~</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringUnaryOperatorIsNull">
+    <value>Is Null</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringUnaryOperatorMinus">
+    <value>-</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringUnaryOperatorNot">
+    <value>Not</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringUnaryOperatorPlus">
+    <value>+</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorBitwiseAnd">
+    <value>&amp;</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorBitwiseOr">
+    <value>|</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorBitwiseXor">
+    <value>^</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorDivide">
+    <value>/</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorEqual">
+    <value>=</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorGreater">
+    <value>&gt;</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorGreaterOrEqual">
+    <value>&gt;=</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorLess">
+    <value>&lt;</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorLessOrEqual">
+    <value>&lt;=</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorLike">
+    <value>Like</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorMinus">
+    <value>-</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorModulo">
+    <value>%</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorMultiply">
+    <value>*</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorNotEqual">
+    <value>&lt;&gt;</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBinaryOperatorPlus">
+    <value>+</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringBetween">
+    <value>Between</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringIn">
+    <value>In</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringIsNotNull">
+    <value>Is Not Null</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringNotLike">
+    <value>Not Like</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIif">
+    <value>Iif</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsNull">
+    <value>IsNull</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLen">
+    <value>Len</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLower">
+    <value>Lower</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionNone">
+    <value>None</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionSubstring">
+    <value>Substring</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionTrim">
+    <value>Trim</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionUpper">
+    <value>Upper</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsThisYear">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsThisMonth">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsThisWeek">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeThisYear">
+    <value>This year</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeThisMonth">
+    <value>This month</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeLastWeek">
+    <value>Last week</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeThisWeek">
+    <value>This week</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeYesterday">
+    <value>Yesterday</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeToday">
+    <value>Today</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeNow">
+    <value>Now</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeTomorrow">
+    <value>Tomorrow</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeDayAfterTomorrow">
+    <value>Day after tomorrow</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeNextWeek">
+    <value>Next week</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeTwoWeeksAway">
+    <value>Two weeks away</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeNextMonth">
+    <value>Next month</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLocalDateTimeNextYear">
+    <value>Next year</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalBeyondThisYear">
+    <value>Is beyond this year</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalLaterThisYear">
+    <value>Is later this year</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalLaterThisMonth">
+    <value>Is later this month</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalNextWeek">
+    <value>Is next week</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalLaterThisWeek">
+    <value>Is later this week</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalTomorrow">
+    <value>Is tomorrow</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalToday">
+    <value>Is today</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalYesterday">
+    <value>Is yesterday</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalEarlierThisWeek">
+    <value>Is earlier this week</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalLastWeek">
+    <value>Is last week</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalEarlierThisMonth">
+    <value>Is earlier this month</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalEarlierThisYear">
+    <value>Is earlier this year</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsOutlookIntervalPriorThisYear">
+    <value>Is prior to this year</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionCustom">
+    <value>Custom</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionCustomNonDeterministic">
+    <value>Custom non deterministic</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionIsNullOrEmpty">
+    <value>Is null or empty</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionConcat">
+    <value>Concat</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAscii">
+    <value>Ascii</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionChar">
+    <value>Char</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionToInt">
+    <value>To int</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionToLong">
+    <value>To long</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionToFloat">
+    <value>To float</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionToDouble">
+    <value>To double</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionToDecimal">
+    <value>To decimal</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionToStr">
+    <value>To str</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionReplace">
+    <value>Replace</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionReverse">
+    <value>Reverse</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionInsert">
+    <value>Insert</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionCharIndex">
+    <value>Char index</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionRemove">
+    <value>Remove</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAbs">
+    <value>Abs</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionSqr">
+    <value>Sqr</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionCos">
+    <value>Cos</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionSin">
+    <value>Sin</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAtn">
+    <value>Atn</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionExp">
+    <value>Exp</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLog">
+    <value>Log</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionRnd">
+    <value>Rnd</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionTan">
+    <value>Tan</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionPower">
+    <value>Power</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionSign">
+    <value>Sign</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionRound">
+    <value>Round</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionCeiling">
+    <value>Ceiling</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionFloor">
+    <value>Floor</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionMax">
+    <value>Max</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionMin">
+    <value>Min</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAcos">
+    <value>Acos</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAsin">
+    <value>Asin</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAtn2">
+    <value>Atn2</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionBigMul">
+    <value>Big mul</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionCosh">
+    <value>Cosh</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionLog10">
+    <value>Log10</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionSinh">
+    <value>Sinh</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionTanh">
+    <value>Tanh</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionPadLeft">
+    <value>Pad left</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionPadRight">
+    <value>Pad right</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffTick">
+    <value>Date diff tick</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffSecond">
+    <value>Date diff second</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffMilliSecond">
+    <value>Date diff millisecond</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffMinute">
+    <value>Date diff minute</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffHour">
+    <value>Date diff hour</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffDay">
+    <value>Date diff day</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffMonth">
+    <value>Date diff month</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionDateDiffYear">
+    <value>Date diff year</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetDate">
+    <value>Get date</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetMilliSecond">
+    <value>Get millisecond</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetSecond">
+    <value>Get second</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetMinute">
+    <value>Get minute</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetHour">
+    <value>Get hour</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetDay">
+    <value>Get day</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetMonth">
+    <value>Get month</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetYear">
+    <value>Get year</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetDayOfWeek">
+    <value>Get day of week</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetDayOfYear">
+    <value>Get day of year</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionGetTimeOfDay">
+    <value>Get time of day</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionNow">
+    <value>Now</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionUtcNow">
+    <value>Utc now</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionToday">
+    <value>Today</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddTimeSpan">
+    <value>Add time span</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddTicks">
+    <value>Add ticks</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddMilliSeconds">
+    <value>Add milliseconds</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddSeconds">
+    <value>Add seconds</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddMinutes">
+    <value>Add minutes</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddHours">
+    <value>Add hours</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddDays">
+    <value>Add days</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddMonths">
+    <value>Add months</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionAddYears">
+    <value>Add years</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionStartsWith">
+    <value>Starts with</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionEndsWith">
+    <value>Ends with</value>
+  </data>
+  <data name="StringId.FilterCriteriaToStringFunctionContains">
+    <value>Contains</value>
+  </data>
+  <data name="StringId.FilterCriteriaInvalidExpression">
+    <value>The specified expression contains invalid symbols (line {0}, character {1}).</value>
+  </data>
+  <data name="StringId.FilterCriteriaInvalidExpressionEx">
+    <value>The specified expression is invalid.</value>
+  </data>
+  <data name="StringId.Apply">
+    <value>Apply</value>
+  </data>
+  <data name="StringId.PreviewPanelText">
+    <value>Preview,</value>
+  </data>
+  <data name="StringId.TransparentBackColorNotSupported">
+    <value>This control does not support transparent background colors</value>
+  </data>
+  <data name="StringId.FilterOutlookDateText">
+    <value>Show all|Show Empty|Filter by a specific date,|Beyond this year|Later this year|Later this month|Next week|Later this week|Tomorrow|Today|Yesterday|Earlier this week|Last week|Earlier this month|Earlier this year|Prior to this year</value>
+  </data>
+  <data name="StringId.FilterDateTimeConstantMenuCaption">
+    <value>Date and time constants</value>
+  </data>
+  <data name="StringId.FilterDateTimeOperatorMenuCaption">
+    <value>Date and time operators</value>
+  </data>
+  <data name="StringId.FilterDateTextAlt">
+    <value>Show all|Show Empty|Filter by a specific date,|Beyond|||Next week|Today|This week|This month|Earlier|{0,yyyy}, {0,MMMM}</value>
+  </data>
+  <data name="StringId.FilterFunctionsMenuCaption">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.DefaultBooleanTrue">
+    <value>True</value>
+  </data>
+  <data name="StringId.DefaultBooleanFalse">
+    <value>False</value>
+  </data>
+  <data name="StringId.DefaultBooleanDefault">
+    <value>Default</value>
+  </data>
+  <data name="StringId.ProgressExport">
+    <value>Exporting</value>
+  </data>
+  <data name="StringId.ProgressPrinting">
+    <value>Printing</value>
+  </data>
+  <data name="StringId.ProgressCreateDocument">
+    <value>Creating document</value>
+  </data>
+  <data name="StringId.ProgressCancel">
+    <value>Cancel</value>
+  </data>
+  <data name="StringId.ProgressCancelPending">
+    <value>Cancel pending</value>
+  </data>
+  <data name="StringId.ProgressLoadingData">
+    <value>Loading data</value>
+  </data>
+  <data name="StringId.FilterAggregateAvg">
+    <value>Avg</value>
+  </data>
+  <data name="StringId.FilterAggregateCount">
+    <value>Count</value>
+  </data>
+  <data name="StringId.FilterAggregateExists">
+    <value>Exists</value>
+  </data>
+  <data name="StringId.FilterAggregateMax">
+    <value>Max</value>
+  </data>
+  <data name="StringId.FilterAggregateMin">
+    <value>Min</value>
+  </data>
+  <data name="StringId.FilterAggregateSum">
+    <value>Sum</value>
+  </data>
+  <data name="StringId.FieldListName">
+    <value>Field List ({0})</value>
+  </data>
+  <data name="StringId.RestoreLayoutDialogFileFilter">
+    <value>XML files (*.xml)|*.xml|All files|*.*</value>
+  </data>
+  <data name="StringId.SaveLayoutDialogFileFilter">
+    <value>XML files (*.xml)|*.xml</value>
+  </data>
+  <data name="StringId.RestoreLayoutDialogTitle">
+    <value>Restore Layout</value>
+  </data>
+  <data name="StringId.SaveLayoutDialogTitle">
+    <value>Save Layout</value>
+  </data>
+  <data name="StringId.PictureEditMenuZoom">
+    <value>Zoom</value>
+  </data>
+  <data name="StringId.PictureEditMenuFullSize">
+    <value>Full Size</value>
+  </data>
+  <data name="StringId.PictureEditMenuFitImage">
+    <value>Fit Image</value>
+  </data>
+  <data name="StringId.PictureEditMenuZoomIn">
+    <value>Zoom In</value>
+  </data>
+  <data name="StringId.PictureEditMenuZoomOut">
+    <value>Zoom Out</value>
+  </data>
+  <data name="StringId.PictureEditMenuZoomTo">
+    <value>Zoom to,</value>
+  </data>
+  <data name="StringId.PictureEditMenuZoomToolTip">
+    <value>{0}%</value>
+  </data>
+  <data name="StringId.FilterPopupToolbarShowOnlyAvailableItems">
+    <value>Show Only Available Items</value>
+  </data>
+  <data name="StringId.FilterPopupToolbarShowNewValues">
+    <value>Show New Field Values</value>
+  </data>
+  <data name="StringId.FilterPopupToolbarIncrementalSearch">
+    <value>Incremental Search</value>
+  </data>
+  <data name="StringId.FilterPopupToolbarMultiSelection">
+    <value>Multi-Selection</value>
+  </data>
+  <data name="StringId.FilterPopupToolbarRadioMode">
+    <value>Radio Mode</value>
+  </data>
+  <data name="StringId.FilterPopupToolbarInvertFilter">
+    <value>Invert Filter</value>
+  </data>
+  <data name="StringId.ColorPickPopupAutomaticItemCaption">
+    <value>Automatic</value>
+  </data>
+  <data name="StringId.ColorPickPopupThemeColorsGroupCaption">
+    <value>Theme Colors</value>
+  </data>
+  <data name="StringId.ColorPickPopupStandardColorsGroupCaption">
+    <value>Standard Colors</value>
+  </data>
+  <data name="StringId.ColorPickPopupRecentColorsGroupCaption">
+    <value>Recent Colors</value>
+  </data>
+  <data name="StringId.ColorPickPopupMoreColorsItemCaption">
+    <value>More Colors...</value>
+  </data>
+  <data name="StringId.ColorPickHueAxisName">
+    <value>Hue</value>
+  </data>
+  <data name="StringId.ColorPickSaturationAxisName">
+    <value>Saturation</value>
+  </data>
+  <data name="StringId.ColorPickLuminanceAxisName">
+    <value>Luminance</value>
+  </data>
+  <data name="StringId.ColorPickBrightnessAxisName">
+    <value>Brightness</value>
+  </data>
+  <data name="StringId.ColorPickOpacityAxisName">
+    <value>Opacity</value>
+  </data>
+  <data name="StringId.ColorPickRedValidationMsg">
+    <value>Red component should be in range 0..255</value>
+  </data>
+  <data name="StringId.ColorPickGreenValidationMsg">
+    <value>Green component should be in range 0..255</value>
+  </data>
+  <data name="StringId.ColorPickBlueValidationMsg">
+    <value>Blue component should be in range 0..255</value>
+  </data>
+  <data name="StringId.ColorPickOpacityValidationMsg">
+    <value>Opacity component should be in range 0..255</value>
+  </data>
+  <data name="StringId.ColorPickColorHexValidationMsg">
+    <value>Invalid hexadecimal value</value>
+  </data>
+  <data name="StringId.ColorPickHueValidationMsg">
+    <value>Hue component should be in range 0..359</value>
+  </data>
+  <data name="StringId.ColorPickSaturationValidationMsg">
+    <value>Saturation component should be in range 0..100</value>
+  </data>
+  <data name="StringId.ColorPickBrightValidationMsg">
+    <value>Brightness component should be in range 0..100</value>
+  </data>
+  <data name="StringId.ColorTabWebSafeColors">
+    <value>Web-Safe</value>
+  </data>
+  <data name="StringId.Days">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.Hours">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.Mins">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.Secs">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewPaused">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewError">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewPendingDeletion">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewPaperJam">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewPaperOut">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewManualFeed">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewPaperProblem">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewOffline">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewIOActive">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewBusy">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewPrinting">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewOutputBinFull">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewNotAvaible">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewWaiting">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewProcessing">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewInitializing">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewWarmingUp">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewTonerLow">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewNoToner">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewPagePunt">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewUserIntervention">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewOutOfMemory">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewDoorOpen">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewServerUnknown">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewPowerSave">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewReady">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewServerOffline">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.PreviewDriverUpdateNeeded">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.IncorrectNumberCopies">
+    <value>The number must be between 1 and 32767.</value>
+  </data>
+  <data name="StringId.ChartRangeControlClientInvalidGrid">
+    <value>The interval  between grid lines is too small to be represented in the range control.</value>
+  </data>
+  <data name="StringId.ChartRangeControlClientNoData">
+    <value>There is no data to represent in a range control.</value>
+  </data>
+  <data name="StringId.DataBarBlue">
+    <value>Blue Data Bar</value>
+  </data>
+  <data name="StringId.DataBarLightBlue">
+    <value>Light Blue Data Bar</value>
+  </data>
+  <data name="StringId.DataBarGreen">
+    <value>Green Data Bar</value>
+  </data>
+  <data name="StringId.DataBarYellow">
+    <value>Yellow Data Bar</value>
+  </data>
+  <data name="StringId.DataBarOrange">
+    <value>Orange Data Bar</value>
+  </data>
+  <data name="StringId.DataBarMint">
+    <value>Mint Data Bar</value>
+  </data>
+  <data name="StringId.DataBarViolet">
+    <value>Violet Data Bar</value>
+  </data>
+  <data name="StringId.DataBarRaspberry">
+    <value>Raspberry Data Bar</value>
+  </data>
+  <data name="StringId.DataBarCoral">
+    <value>Coral Data Bar</value>
+  </data>
+  <data name="StringId.DataBarBlueGradient">
+    <value>Blue Data Bar Gradient</value>
+  </data>
+  <data name="StringId.DataBarLightBlueGradient">
+    <value>Light Blue Data Bar Gradient</value>
+  </data>
+  <data name="StringId.DataBarGreenGradient">
+    <value>Green Data Bar Gradient</value>
+  </data>
+  <data name="StringId.DataBarYellowGradient">
+    <value>Yellow Data Bar Gradient</value>
+  </data>
+  <data name="StringId.DataBarOrangeGradient">
+    <value>Orange Data Bar Gradient</value>
+  </data>
+  <data name="StringId.DataBarMintGradient">
+    <value>Mint Data Bar Gradient</value>
+  </data>
+  <data name="StringId.DataBarVioletGradient">
+    <value>Violet Data Bar Gradient</value>
+  </data>
+  <data name="StringId.DataBarRaspberryGradient">
+    <value>Raspberry Data Bar Gradient</value>
+  </data>
+  <data name="StringId.DataBarCoralGradient">
+    <value>Coral Data Bar Gradient</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemClearColumnRules">
+    <value>Clear Rules from This Column</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemClearAllRules">
+    <value>Clear Rules from All Columns</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemHighlightCellRules">
+    <value>Highlight Cell Rules</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemTopBottomRules">
+    <value>Top/Bottom Rules</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemDataBars">
+    <value>Data Bars</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemColorScales">
+    <value>Color Scales</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemIconSets">
+    <value>Icon Sets</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemClearRules">
+    <value>Clear Rules</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemManageRules">
+    <value>Manage Rules...</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemUniqueDuplicateRules">
+    <value>Unique/Duplicate Rules</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemGradientFill">
+    <value>Gradient Fill</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemSolidFill">
+    <value>Solid Fill</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemDataBarDescription">
+    <value>Add a colored data bar to represent
+the value in a cell. The higher the
+value, the longer the bar.</value>
+  </data>
+  <data name="StringId.IconSetCategoryRatings">
+    <value>Ratings</value>
+  </data>
+  <data name="StringId.IconSetCategoryIndicators">
+    <value>Indicators</value>
+  </data>
+  <data name="StringId.IconSetCategorySymbols">
+    <value>Symbols</value>
+  </data>
+  <data name="StringId.IconSetCategoryShapes">
+    <value>Shapes</value>
+  </data>
+  <data name="StringId.IconSetCategoryDirectional">
+    <value>Directional</value>
+  </data>
+  <data name="StringId.IconSetCategoryPositiveNegative">
+    <value>Positive/Negative</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemIconSetDescription">
+    <value>Use this icon set to classify column
+values into the following ranges:</value>
+  </data>
+  <data name="StringId.ColorScaleGreenYellowRed">
+    <value>Green - Yellow - Red</value>
+  </data>
+  <data name="StringId.ColorScalePurpleWhiteAzure">
+    <value>Purple - White - Azure</value>
+  </data>
+  <data name="StringId.ColorScaleYellowOrangeCoral">
+    <value>Yellow - Orange - Coral</value>
+  </data>
+  <data name="StringId.ColorScaleGreenWhiteRed">
+    <value>Green - White - Red</value>
+  </data>
+  <data name="StringId.ColorScaleEmeraldAzureBlue">
+    <value>Emerald - Azure - Blue</value>
+  </data>
+  <data name="StringId.ColorScaleWhiteRed">
+    <value>White - Red</value>
+  </data>
+  <data name="StringId.ColorScaleWhiteGreen">
+    <value>White - Green</value>
+  </data>
+  <data name="StringId.ColorScaleWhiteAzure">
+    <value>White - Azure</value>
+  </data>
+  <data name="StringId.ColorScaleYellowGreen">
+    <value>Yellow - Green</value>
+  </data>
+  <data name="StringId.ColorScaleBlueWhiteRed">
+    <value>Blue - White - Red</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemColorScaleDescription">
+    <value>Apply a color gradient to a range of
+cells in this column. The color indicates
+where each cell falls within that range.</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemUnique">
+    <value>Unique Values</value>
+  </data>
+  <data name="StringId.FormatRuleUniqueText">
+    <value>Format cells that are UNIQUE VALUES</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemDuplicate">
+    <value>Duplicate Values</value>
+  </data>
+  <data name="StringId.FormatRuleDuplicateText">
+    <value>Format cells that are DUPLICATE VALUES</value>
+  </data>
+  <data name="StringId.FormatRuleApplyFormatProperty">
+    <value>Apply formatting to an entire row</value>
+  </data>
+  <data name="StringId.FormatRuleWith">
+    <value>with</value>
+  </data>
+  <data name="StringId.FormatRuleForThisColumnWith">
+    <value>for this column with</value>
+  </data>
+  <data name="StringId.IconSetTitleStars3">
+    <value>3 Stars</value>
+  </data>
+  <data name="StringId.IconSetTitleRatings4">
+    <value>4 Ratings</value>
+  </data>
+  <data name="StringId.IconSetTitleRatings5">
+    <value>5 Ratings</value>
+  </data>
+  <data name="StringId.IconSetTitleQuarters5">
+    <value>5 Quarters</value>
+  </data>
+  <data name="StringId.IconSetTitleBoxes5">
+    <value>5 Boxes</value>
+  </data>
+  <data name="StringId.IconSetTitleArrows3Colored">
+    <value>3 Arrows (Colored)</value>
+  </data>
+  <data name="StringId.IconSetTitleArrows3Gray">
+    <value>3 Arrows (Gray)</value>
+  </data>
+  <data name="StringId.IconSetTitleTriangles3">
+    <value>3 Triangles</value>
+  </data>
+  <data name="StringId.IconSetTitleArrows4Colored">
+    <value>4 Arrows (Colored)</value>
+  </data>
+  <data name="StringId.IconSetTitleArrows4Gray">
+    <value>4 Arrows (Gray)</value>
+  </data>
+  <data name="StringId.IconSetTitleArrows5Colored">
+    <value>5 Arrows (Colored)</value>
+  </data>
+  <data name="StringId.IconSetTitleArrows5Gray">
+    <value>5 Arrows (Gray)</value>
+  </data>
+  <data name="StringId.IconSetTitleTrafficLights3Unrimmed">
+    <value>3 Traffic Lights (Unrimmed)</value>
+  </data>
+  <data name="StringId.IconSetTitleTrafficLights3Rimmed">
+    <value>3 Traffic Lights (Rimmed)</value>
+  </data>
+  <data name="StringId.IconSetTitleSigns3">
+    <value>3 Signs</value>
+  </data>
+  <data name="StringId.IconSetTitleTrafficLights4">
+    <value>4 Traffic Lights</value>
+  </data>
+  <data name="StringId.IconSetTitleRedToBlack">
+    <value>Red To Black</value>
+  </data>
+  <data name="StringId.IconSetTitleSymbols3Circled">
+    <value>3 Symbols (Circled)</value>
+  </data>
+  <data name="StringId.IconSetTitleSymbols3Uncircled">
+    <value>3 Symbols (Uncircled)</value>
+  </data>
+  <data name="StringId.IconSetTitleFlags3">
+    <value>3 Flags</value>
+  </data>
+  <data name="StringId.IconSetTitlePositiveNegativeArrows">
+    <value>Arrows (Colored)</value>
+  </data>
+  <data name="StringId.IconSetTitlePositiveNegativeArrowsGray">
+    <value>Arrows (Gray)</value>
+  </data>
+  <data name="StringId.IconSetTitlePositiveNegativeTriangles">
+    <value>Triangles</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemTop10Items">
+    <value>Top 10 Items</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemTop10Percent">
+    <value>Top 10 %</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemBottom10Items">
+    <value>Bottom 10 Items</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemBottom10Percent">
+    <value>Bottom 10 %</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemAboveAverage">
+    <value>Above Average</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemBelowAverage">
+    <value>Below Average</value>
+  </data>
+  <data name="StringId.FormatRuleTopText">
+    <value>Format cells that rank in the TOP</value>
+  </data>
+  <data name="StringId.FormatRuleBottomText">
+    <value>Format cells that rank in the BOTTOM</value>
+  </data>
+  <data name="StringId.FormatRuleAboveAverageText">
+    <value>Format cells that are ABOVE AVERAGE</value>
+  </data>
+  <data name="StringId.FormatRuleBelowAverageText">
+    <value>Format cells that are BELOW AVERAGE</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemGreaterThan">
+    <value>Greater Than</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemLessThan">
+    <value>Less Than</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemBetween">
+    <value>Between</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemEqualTo">
+    <value>Equal To</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemTextThatContains">
+    <value>Text that Contains</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemCustomCondition">
+    <value>Custom Condition</value>
+  </data>
+  <data name="StringId.FormatRuleGreaterThanText">
+    <value>Format cells that are GREATER THAN</value>
+  </data>
+  <data name="StringId.FormatRuleLessThanText">
+    <value>Format cells that are LESS THAN</value>
+  </data>
+  <data name="StringId.FormatRuleBetweenText">
+    <value>Format cells that are BETWEEN</value>
+  </data>
+  <data name="StringId.FormatRuleEqualToText">
+    <value>Format cells that are EQUAL TO</value>
+  </data>
+  <data name="StringId.FormatRuleTextThatContainsText">
+    <value>Format cells that contain the text</value>
+  </data>
+  <data name="StringId.FormatRuleCustomConditionText">
+    <value>Format cells that match the following condition</value>
+  </data>
+  <data name="StringId.FormatRuleExpressionEmptyEnter">
+    <value>&lt;enter an expression&gt;</value>
+  </data>
+  <data name="StringId.FormatRuleMenuItemDateOccurring">
+    <value>A Date Occurring</value>
+  </data>
+  <data name="StringId.FormatRuleDateOccurring">
+    <value>Format cells that contain a date matching these conditions</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceRedFillRedText">
+    <value>Red Fill with Red Text</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceYellowFillYellowText">
+    <value>Yellow Fill with Yellow Text</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceGreenFillGreenText">
+    <value>Green Fill with Green Text</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceRedFill">
+    <value>Red Fill</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceRedText">
+    <value>Red Text</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceGreenFill">
+    <value>Green Fill</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceGreenText">
+    <value>Green Text</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceBoldText">
+    <value>Bold Text</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceItalicText">
+    <value>Italic Text</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceStrikeoutText">
+    <value>Strikeout Text</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceRedBoldText">
+    <value>Red Bold Text</value>
+  </data>
+  <data name="StringId.FormatPredefinedAppearanceGreenBoldText">
+    <value>Green Bold Text</value>
+  </data>
+  <data name="StringId.SearchForColumn">
+    <value>Search for a column...</value>
+  </data>
+  <data name="StringId.SearchForField">
+    <value>Search for a field...</value>
+  </data>
+  <data name="StringId.ManageRuleCaption">
+    <value>Conditional Formatting Rules Manager</value>
+  </data>
+  <data name="StringId.ManageRuleShowFormattingRules">
+    <value>Show formatting rules for:</value>
+  </data>
+  <data name="StringId.ManageRuleUp">
+    <value>Up</value>
+  </data>
+  <data name="StringId.ManageRuleDown">
+    <value>Down</value>
+  </data>
+  <data name="StringId.ManageRuleNewRule">
+    <value>New Rule...</value>
+  </data>
+  <data name="StringId.ManageRuleEditRule">
+    <value>Edit Rule...</value>
+  </data>
+  <data name="StringId.ManageRuleDeleteRule">
+    <value>Delete Rule</value>
+  </data>
+  <data name="StringId.ManageRuleGridCaptionRule">
+    <value>Rule</value>
+  </data>
+  <data name="StringId.ManageRuleGridCaptionFormat">
+    <value>Format</value>
+  </data>
+  <data name="StringId.ManageRuleGridCaptionApplyToTheRow">
+    <value>Apply to the row</value>
+  </data>
+  <data name="StringId.ManageRuleGridCaptionColumn">
+    <value>Column</value>
+  </data>
+  <data name="StringId.ManageRuleAllColumns">
+    <value>(All)</value>
+  </data>
+  <data name="StringId.NewFormattingRule">
+    <value>New Formatting Rule</value>
+  </data>
+  <data name="StringId.EditFormattingRule">
+    <value>Edit Formatting Rule</value>
+  </data>
+  <data name="StringId.NewEditFormattingRuleSelectARuleType">
+    <value>Select a Rule Type:</value>
+  </data>
+  <data name="StringId.NewEditFormattingRuleEditTheRuleDescription">
+    <value>Edit the Rule Description:</value>
+  </data>
+  <data name="StringId.NewEditFormattingRuleFormatAllCellsBasedOnTheirValues">
+    <value>Format all cells based on their values</value>
+  </data>
+  <data name="StringId.NewEditFormattingRuleFormatOnlyCellsThatContain">
+    <value>Format only cells that contain</value>
+  </data>
+  <data name="StringId.NewEditFormattingRuleFormatOnlyTopOrBottomRankedValues">
+    <value>Format only top or bottom ranked values</value>
+  </data>
+  <data name="StringId.NewEditFormattingRuleFormatOnlyValuesThatAreAboveOrBelowAverage">
+    <value>Format only values that are above or below average</value>
+  </data>
+  <data name="StringId.NewEditFormattingRuleFormatOnlyUniqueOrDuplicateValues">
+    <value>Format only unique or duplicate values</value>
+  </data>
+  <data name="StringId.NewEditFormattingRuleUseAFormulaToDetermineWhichCellsToFormat">
+    <value>Use a formula to determine which cells to format</value>
+  </data>
+  <data name="StringId.ManageRuleComplexRuleBaseFormatStyle">
+    <value>Format Style:</value>
+  </data>
+  <data name="StringId.ManageRuleColorScale2">
+    <value>2-Color Scale</value>
+  </data>
+  <data name="StringId.ManageRuleColorScale3">
+    <value>3-Color Scale</value>
+  </data>
+  <data name="StringId.ManageRuleDataBar">
+    <value>Data Bar</value>
+  </data>
+  <data name="StringId.ManageRuleIconSets">
+    <value>Icon Sets</value>
+  </data>
+  <data name="StringId.ManageRuleCommonMinimum">
+    <value>Minimum</value>
+  </data>
+  <data name="StringId.ManageRuleCommonMaximum">
+    <value>Maximum</value>
+  </data>
+  <data name="StringId.ManageRuleCommonType">
+    <value>Type:</value>
+  </data>
+  <data name="StringId.ManageRuleCommonPercent">
+    <value>Percent</value>
+  </data>
+  <data name="StringId.ManageRuleCommonNumber">
+    <value>Number</value>
+  </data>
+  <data name="StringId.ManageRuleCommonValue">
+    <value>Value:</value>
+  </data>
+  <data name="StringId.ManageRuleCommonColor">
+    <value>Color:</value>
+  </data>
+  <data name="StringId.ManageRuleCommonPreview">
+    <value>Preview:</value>
+  </data>
+  <data name="StringId.ManageRuleNoFormatSet">
+    <value>No Format Set</value>
+  </data>
+  <data name="StringId.ManageRuleColorScaleMidpoint">
+    <value>Midpoint</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarBarAppearance">
+    <value>Bar Appearance:</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarFill">
+    <value>Fill:</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarBorder">
+    <value>Border:</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarDrawAxis">
+    <value>Draw Axis</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarUseNegativeBar">
+    <value>Use Negative Bar</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarAxisColor">
+    <value>Axis Color:</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarBarDirection">
+    <value>Bar Direction:</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarSolidFill">
+    <value>Solid Fill</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarGradientFill">
+    <value>Gradient Fill</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarNoBorder">
+    <value>No Border</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarSolidBorder">
+    <value>Solid Border</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarContext">
+    <value>Context</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarLTR">
+    <value>Left-to-Right</value>
+  </data>
+  <data name="StringId.ManageRuleDataBarRTL">
+    <value>Right-to-Left</value>
+  </data>
+  <data name="StringId.ManageRuleIconSetsDisplayEachIconAccordingToTheseRules">
+    <value>Display each icon according to these rules:</value>
+  </data>
+  <data name="StringId.ManageRuleIconSetsReverseIconOrder">
+    <value>Reverse Icon Order</value>
+  </data>
+  <data name="StringId.ManageRuleIconSetsWhen">
+    <value>When</value>
+  </data>
+  <data name="StringId.ManageRuleIconSetsValueIs">
+    <value>value is</value>
+  </data>
+  <data name="StringId.ManageRuleSimpleRuleBaseFormat">
+    <value>Format...</value>
+  </data>
+  <data name="StringId.ManageRuleAverageFormatValuesThatAre">
+    <value>Format values that are:</value>
+  </data>
+  <data name="StringId.ManageRuleAverageTheAverageForTheSelectedRange">
+    <value>the average of column values</value>
+  </data>
+  <data name="StringId.ManageRuleAverageAbove">
+    <value>Above</value>
+  </data>
+  <data name="StringId.ManageRuleAverageBelow">
+    <value>Below</value>
+  </data>
+  <data name="StringId.ManageRuleAverageEqualOrAbove">
+    <value>Equal Or Above</value>
+  </data>
+  <data name="StringId.ManageRuleAverageEqualOrBelow">
+    <value>Equal Or Below</value>
+  </data>
+  <data name="StringId.ManageRuleFormulaFormatValuesWhereThisFormulaIsTrue">
+    <value>Format values where this formula is true:</value>
+  </data>
+  <data name="StringId.ManageRuleRankedValuesFormatValuesThatRankInThe">
+    <value>Format values that rank in the:</value>
+  </data>
+  <data name="StringId.ManageRuleRankedValuesOfTheColumnsCellValues">
+    <value>% of column values</value>
+  </data>
+  <data name="StringId.ManageRuleRankedValuesTop">
+    <value>Top</value>
+  </data>
+  <data name="StringId.ManageRuleRankedValuesBottom">
+    <value>Bottom</value>
+  </data>
+  <data name="StringId.ManageRuleThatContainFormatOnlyCellsWith">
+    <value>Format only cells with:</value>
+  </data>
+  <data name="StringId.ManageRuleThatContainCellValue">
+    <value>Cell Value</value>
+  </data>
+  <data name="StringId.ManageRuleThatContainDatesOccurring">
+    <value>Dates Occurring</value>
+  </data>
+  <data name="StringId.ManageRuleThatContainSpecificText">
+    <value>Specific Text</value>
+  </data>
+  <data name="StringId.ManageRuleThatContainBlanks">
+    <value>Blanks</value>
+  </data>
+  <data name="StringId.ManageRuleThatContainNoBlanks">
+    <value>No Blanks</value>
+  </data>
+  <data name="StringId.ManageRuleThatContainErrors">
+    <value>Errors</value>
+  </data>
+  <data name="StringId.ManageRuleThatContainNoErrors">
+    <value>No Errors</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueBetween">
+    <value>Between</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueNotBetween">
+    <value>Not Between</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueEqualTo">
+    <value>Equal To</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueNotEqualTo">
+    <value>Not Equal To</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueGreaterThan">
+    <value>Greater Than</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueLessThan">
+    <value>Less Than</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueGreaterThanOrEqualTo">
+    <value>Greater Than Or Equal To</value>
+  </data>
+  <data name="StringId.ManageRuleCellValueLessThanOrEqualTo">
+    <value>Less Than Or Equal To</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringBeyond">
+    <value>Following the month in 2 months time</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringBeyondThisYear">
+    <value>Following this year</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringEarlier">
+    <value>Prior to the month 6 months ago</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringEarlierThisMonth">
+    <value>This month, prior to previous week</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringEarlierThisWeek">
+    <value>This week, prior to yesterday</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringEarlierThisYear">
+    <value>This year, prior to this month</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringLastWeek">
+    <value>Last Week</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringLaterThisMonth">
+    <value>This month, beyond next week</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringLaterThisWeek">
+    <value>This week, beyond tomorrow</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringLaterThisYear">
+    <value>This year, beyond this month</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringMonthAfter1">
+    <value>Next Month</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringMonthAfter2">
+    <value>During the month in 2 months time</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringMonthAgo1">
+    <value>Last Month</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringMonthAgo2">
+    <value>During the month 2 months ago</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringMonthAgo3">
+    <value>During the month 3 months ago</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringMonthAgo4">
+    <value>During the month 4 months ago</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringMonthAgo5">
+    <value>During the month 5 months ago</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringMonthAgo6">
+    <value>During the month 6 months ago</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringNextWeek">
+    <value>Next Week</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringPriorThisYear">
+    <value>Prior to this year</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringThisMonth">
+    <value>This Month</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringThisWeek">
+    <value>This Week</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringTomorrow">
+    <value>Tomorrow</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringToday">
+    <value>Today</value>
+  </data>
+  <data name="StringId.ManageRuleDatesOccurringYesterday">
+    <value>Yesterday</value>
+  </data>
+  <data name="StringId.ManageRuleSpecificTextContaining">
+    <value>Containing</value>
+  </data>
+  <data name="StringId.ManageRuleSpecificTextNotContaining">
+    <value>Not Containing</value>
+  </data>
+  <data name="StringId.ManageRuleSpecificTextBeginningWith">
+    <value>Beginning With</value>
+  </data>
+  <data name="StringId.ManageRuleSpecificTextEndingWith">
+    <value>Ending With</value>
+  </data>
+  <data name="StringId.ManageRuleUniqueOrDuplicateFormatAll">
+    <value>Format all:</value>
+  </data>
+  <data name="StringId.ManageRuleUniqueOrDuplicateValuesInTheSelectedRange">
+    <value>column values</value>
+  </data>
+  <data name="StringId.ManageRuleUniqueOrDuplicateUnique">
+    <value>Unique</value>
+  </data>
+  <data name="StringId.ManageRuleUniqueOrDuplicateDuplicate">
+    <value>Duplicate</value>
+  </data>
+  <data name="StringId.ManageRuleColorScale">
+    <value>Graded Color Scale</value>
+  </data>
+  <data name="StringId.ManageRuleIconSet">
+    <value>Icon Set</value>
+  </data>
+  <data name="StringId.ManageRuleFormula">
+    <value>Formula</value>
+  </data>
+  <data name="StringId.ManageRuleAboveAverage">
+    <value>Above Average</value>
+  </data>
+  <data name="StringId.ManageRuleBelowAverage">
+    <value>Below Average</value>
+  </data>
+  <data name="StringId.ManageRuleEqualOrAboveAverage">
+    <value>Equal to or Above Average</value>
+  </data>
+  <data name="StringId.ManageRuleEqualOrBelowAverage">
+    <value>Equal to or Below Average</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsCaption">
+    <value>Format Cells</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsFont">
+    <value>Font</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsFill">
+    <value>Fill</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsPredefinedAppearance">
+    <value>Predefined Appearance</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsFontStyle">
+    <value>Font style</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsFontColor">
+    <value>Font color</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsEffects">
+    <value>Effects:</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsUnderline">
+    <value>Underline</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsStrikethrough">
+    <value>Strikethrough</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsClear">
+    <value>Clear</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsBackgroundColor">
+    <value>Background Color:</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsNone">
+    <value>None</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsRegular">
+    <value>Regular</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsBold">
+    <value>Bold</value>
+  </data>
+  <data name="StringId.ManageRuleFormatCellsItalic">
+    <value>Italic</value>
+  </data>
+  <data name="StringId.TakePictureDialogTitle">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.TakePictureMenuItem">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.TakePictureDialogCapture">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.TakePictureDialogTryAgain">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.TakePictureDialogSave">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.CameraSettingsActiveDevice">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.CameraSettingsBrightness">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.CameraSettingsContrast">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.CameraSettingsDesaturate">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.CameraSettingsDefaults">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.CameraSettingsCaption">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.CameraSettingsResolution">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.CameraDeviceNotFound">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.CameraDeviceIsBusy">
+    <value>
+    </value>
+  </data>
+  <data name="StringId.CameraDesignTimeInfo">
+    <value>
+    </value>
+  </data>
+</root>

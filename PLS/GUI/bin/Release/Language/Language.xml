@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Language>
+    <name>Tài khoản hoặc mật khẩu không đúng! Vui lòng kiểm tra lại!</name>
+    <value>Tài khoản hoặc mật khẩu không đúng! Vui lòng kiểm tra lại!</value>
+  </Language>
+  <Language>
+    <name>Thông báo</name>
+    <value>Thông báo</value>
+  </Language>
+  <Language>
+    <name>f_connectDB.Root</name>
+    <value>Root</value>
+  </Language>
+  <Language>
+    <name>f_connectDB.btnExit</name>
+    <value>EXIT</value>
+  </Language>
+  <Language>
+    <name>f_connectDB.btnOK</name>
+    <value>SAVE &amp;&amp; EXIT</value>
+  </Language>
+  <Language>
+    <name>f_connectDB.label1</name>
+    <value>PETRO LAO COMPANY LIMITED</value>
+  </Language>
+  <Language>
+    <name>f_connectDB.layoutControlItem2</name>
+    <value>DATABASE NAME</value>
+  </Language>
+  <Language>
+    <name>f_connectDB.layoutControlItem3</name>
+    <value>USERNAME</value>
+  </Language>
+  <Language>
+    <name>f_connectDB.layoutControlItem4</name>
+    <value>PASSWORD</value>
+  </Language>
+  <Language>
+    <name>f_connectDB.txtServer</name>
+    <value />
+  </Language>
+  <Language>
+    <name>f_connectDB.layoutControlItem7</name>
+    <value>SERVER NAME</value>
+  </Language>
+  <Language>
+    <name>f_connectDB.rlan</name>
+    <value>LAN</value>
+  </Language>
+  <Language>
+    <name>f_connectDB.rnet</name>
+    <value>NETWORK</value>
+  </Language>
+</NewDataSet>

@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="GridStringId.FileIsNotFoundError">
+    <value>File {0} is not found</value>
+  </data>
+  <data name="GridStringId.ColumnViewExceptionMessage">
+    <value> Do you want to correct the value?</value>
+  </data>
+  <data name="GridStringId.CustomizationCaption">
+    <value>Customization</value>
+  </data>
+  <data name="GridStringId.CustomizationColumns">
+    <value>Columns</value>
+  </data>
+  <data name="GridStringId.CustomizationBands">
+    <value>Bands</value>
+  </data>
+  <data name="GridStringId.FilterPanelCustomizeButton">
+    <value>Edit Filter</value>
+  </data>
+  <data name="GridStringId.PopupFilterAll">
+    <value>(All)</value>
+  </data>
+  <data name="GridStringId.PopupFilterCustom">
+    <value>(Custom)</value>
+  </data>
+  <data name="GridStringId.PopupFilterBlanks">
+    <value>(Blanks)</value>
+  </data>
+  <data name="GridStringId.PopupFilterNonBlanks">
+    <value>(Non blanks)</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialogFormCaption">
+    <value>Custom AutoFilter</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialogCaption">
+    <value>Show rows where:</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialogRadioAnd">
+    <value>&amp;And</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialogRadioOr">
+    <value>O&amp;r</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialogOkButton">
+    <value>&amp;OK</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialogClearFilter">
+    <value>C&amp;lear Filter</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialog2FieldCheck">
+    <value>Field</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialogCancelButton">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialogEmptyValue">
+    <value>(Enter a value)</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialogEmptyOperator">
+    <value>(Select an operator)</value>
+  </data>
+  <data name="GridStringId.CustomFilterDialogHint">
+    <value>Use _ to represent any single character#Use % to represent any series of characters</value>
+  </data>
+  <data name="GridStringId.WindowErrorCaption">
+    <value>Error</value>
+  </data>
+  <data name="GridStringId.MenuFooterSum">
+    <value>Sum</value>
+  </data>
+  <data name="GridStringId.MenuFooterMin">
+    <value>Min</value>
+  </data>
+  <data name="GridStringId.MenuFooterMax">
+    <value>Max</value>
+  </data>
+  <data name="GridStringId.MenuFooterCount">
+    <value>Count</value>
+  </data>
+  <data name="GridStringId.MenuFooterAverage">
+    <value>Average</value>
+  </data>
+  <data name="GridStringId.MenuFooterNone">
+    <value>None</value>
+  </data>
+  <data name="GridStringId.MenuFooterSumFormat">
+    <value>SUM={0:0.##}</value>
+  </data>
+  <data name="GridStringId.MenuFooterMinFormat">
+    <value>MIN={0}</value>
+  </data>
+  <data name="GridStringId.MenuFooterMaxFormat">
+    <value>MAX={0}</value>
+  </data>
+  <data name="GridStringId.MenuFooterCountFormat">
+    <value>{0}</value>
+  </data>
+  <data name="GridStringId.MenuFooterAverageFormat">
+    <value>AVG={0:0.##}</value>
+  </data>
+  <data name="GridStringId.MenuColumnSortAscending">
+    <value>Sort Ascending</value>
+  </data>
+  <data name="GridStringId.MenuColumnSortDescending">
+    <value>Sort Descending</value>
+  </data>
+  <data name="GridStringId.MenuColumnShowColumn">
+    <value>Show This Column</value>
+  </data>
+  <data name="GridStringId.MenuColumnRemoveColumn">
+    <value>Hide This Column</value>
+  </data>
+  <data name="GridStringId.MenuColumnGroup">
+    <value>Group By This Column</value>
+  </data>
+  <data name="GridStringId.MenuColumnUnGroup">
+    <value>UnGroup</value>
+  </data>
+  <data name="GridStringId.MenuColumnColumnCustomization">
+    <value>Column Chooser</value>
+  </data>
+  <data name="GridStringId.MenuColumnBandCustomization">
+    <value>Column/Band Chooser</value>
+  </data>
+  <data name="GridStringId.MenuColumnBestFit">
+    <value>Best Fit</value>
+  </data>
+  <data name="GridStringId.MenuColumnFilter">
+    <value>Can Filter</value>
+  </data>
+  <data name="GridStringId.MenuColumnClearFilter">
+    <value>Clear Filter</value>
+  </data>
+  <data name="GridStringId.MenuColumnBestFitAllColumns">
+    <value>Best Fit (all columns)</value>
+  </data>
+  <data name="GridStringId.MenuColumnResetGroupSummarySort">
+    <value>Clear Summary Sorting</value>
+  </data>
+  <data name="GridStringId.MenuColumnGroupSummarySortFormat">
+    <value>{1} by '{0}' - {2}</value>
+  </data>
+  <data name="GridStringId.MenuColumnSumSummaryTypeDescription">
+    <value>Sum</value>
+  </data>
+  <data name="GridStringId.MenuColumnMinSummaryTypeDescription">
+    <value>Min</value>
+  </data>
+  <data name="GridStringId.MenuColumnMaxSummaryTypeDescription">
+    <value>Max</value>
+  </data>
+  <data name="GridStringId.MenuColumnCountSummaryTypeDescription">
+    <value>Count</value>
+  </data>
+  <data name="GridStringId.MenuColumnAverageSummaryTypeDescription">
+    <value>Average</value>
+  </data>
+  <data name="GridStringId.MenuColumnCustomSummaryTypeDescription">
+    <value>Custom</value>
+  </data>
+  <data name="GridStringId.MenuColumnSortGroupBySummaryMenu">
+    <value>Sort by Summary</value>
+  </data>
+  <data name="GridStringId.MenuColumnGroupIntervalMenu">
+    <value>Group Interval</value>
+  </data>
+  <data name="GridStringId.MenuColumnGroupIntervalNone">
+    <value>None</value>
+  </data>
+  <data name="GridStringId.MenuColumnGroupIntervalDay">
+    <value>Day</value>
+  </data>
+  <data name="GridStringId.MenuColumnGroupIntervalMonth">
+    <value>Month</value>
+  </data>
+  <data name="GridStringId.MenuColumnGroupIntervalYear">
+    <value>Year</value>
+  </data>
+  <data name="GridStringId.MenuColumnGroupIntervalSmart">
+    <value>Smart</value>
+  </data>
+  <data name="GridStringId.MenuColumnGroupSummaryEditor">
+    <value>Group Summary Editor...</value>
+  </data>
+  <data name="GridStringId.MenuColumnExpressionEditor">
+    <value>Expression Editor...</value>
+  </data>
+  <data name="GridStringId.MenuColumnConditionalFormatting">
+    <value>Conditional Formatting</value>
+  </data>
+  <data name="GridStringId.MenuColumnFilterMode">
+    <value>Filter Mode</value>
+  </data>
+  <data name="GridStringId.MenuColumnFilterModeValue">
+    <value>Value</value>
+  </data>
+  <data name="GridStringId.MenuColumnFilterModeDisplayText">
+    <value>Display Text</value>
+  </data>
+  <data name="GridStringId.MenuGroupPanelFullExpand">
+    <value>Full Expand</value>
+  </data>
+  <data name="GridStringId.MenuGroupPanelFullCollapse">
+    <value>Full Collapse</value>
+  </data>
+  <data name="GridStringId.MenuGroupPanelClearGrouping">
+    <value>Clear Grouping</value>
+  </data>
+  <data name="GridStringId.MenuGroupPanelShow">
+    <value>Show Group By Box</value>
+  </data>
+  <data name="GridStringId.MenuGroupPanelHide">
+    <value>Hide Group By Box</value>
+  </data>
+  <data name="GridStringId.PrintDesignerGridView">
+    <value>Print Settings (Grid View)</value>
+  </data>
+  <data name="GridStringId.PrintDesignerCardView">
+    <value>Print Settings (Card View)</value>
+  </data>
+  <data name="GridStringId.PrintDesignerLayoutView">
+    <value>Print Settings (Layout View)</value>
+  </data>
+  <data name="GridStringId.PrintDesignerBandedView">
+    <value>Print Settings (Banded View)</value>
+  </data>
+  <data name="GridStringId.PrintDesignerBandHeader">
+    <value>Band Header</value>
+  </data>
+  <data name="GridStringId.MenuColumnGroupBox">
+    <value>Group By Box</value>
+  </data>
+  <data name="GridStringId.CardViewNewCard">
+    <value>New Card</value>
+  </data>
+  <data name="GridStringId.CardViewQuickCustomizationButton">
+    <value>Customize</value>
+  </data>
+  <data name="GridStringId.CardViewQuickCustomizationButtonFilter">
+    <value>Filter</value>
+  </data>
+  <data name="GridStringId.CardViewQuickCustomizationButtonSort">
+    <value>Sort:</value>
+  </data>
+  <data name="GridStringId.CardViewCaptionFormat">
+    <value>Record N {0}</value>
+  </data>
+  <data name="GridStringId.GridGroupPanelText">
+    <value>Drag a column header here to group by that column</value>
+  </data>
+  <data name="GridStringId.GridNewRowText">
+    <value>Click here to add a new row</value>
+  </data>
+  <data name="GridStringId.GridOutlookIntervals">
+    <value>Older;Last Month;Earlier this Month;Three Weeks Ago;Two Weeks Ago;Last Week;;;;;;;;Yesterday;Today;Tomorrow;;;;;;;;Next Week;Two Weeks Away;Three Weeks Away;Later this Month;Next Month;Beyond Next Month;</value>
+  </data>
+  <data name="GridStringId.PrintDesignerDescription">
+    <value>Set up various printing options for the current view.</value>
+  </data>
+  <data name="GridStringId.MenuFooterCustomFormat">
+    <value>Custom={0}</value>
+  </data>
+  <data name="GridStringId.MenuFooterCountGroupFormat">
+    <value>Count={0}</value>
+  </data>
+  <data name="GridStringId.MenuColumnClearSorting">
+    <value>Clear Sorting</value>
+  </data>
+  <data name="GridStringId.MenuColumnClearAllSorting">
+    <value>Clear All Sorting</value>
+  </data>
+  <data name="GridStringId.MenuColumnFilterEditor">
+    <value>Filter Editor...</value>
+  </data>
+  <data name="GridStringId.MenuColumnAutoFilterRowHide">
+    <value>Hide Auto Filter Row</value>
+  </data>
+  <data name="GridStringId.MenuColumnAutoFilterRowShow">
+    <value>Show Auto Filter Row</value>
+  </data>
+  <data name="GridStringId.MenuColumnFindFilterHide">
+    <value>Hide Find Panel</value>
+  </data>
+  <data name="GridStringId.MenuColumnFindFilterShow">
+    <value>Show Find Panel</value>
+  </data>
+  <data name="GridStringId.FilterBuilderOkButton">
+    <value>&amp;OK</value>
+  </data>
+  <data name="GridStringId.FilterBuilderCancelButton">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="GridStringId.FilterBuilderApplyButton">
+    <value>&amp;Apply</value>
+  </data>
+  <data name="GridStringId.FilterBuilderCaption">
+    <value>Filter Editor</value>
+  </data>
+  <data name="GridStringId.CustomizationFormColumnHint">
+    <value>Drag and drop columns here to customize layout</value>
+  </data>
+  <data name="GridStringId.CustomizationFormBandHint">
+    <value>Drag and drop bands here to customize layout</value>
+  </data>
+  <data name="GridStringId.LayoutViewSingleModeBtnHint">
+    <value>One Card</value>
+  </data>
+  <data name="GridStringId.LayoutViewRowModeBtnHint">
+    <value>One Row</value>
+  </data>
+  <data name="GridStringId.LayoutViewColumnModeBtnHint">
+    <value>One Column</value>
+  </data>
+  <data name="GridStringId.LayoutViewMultiRowModeBtnHint">
+    <value>Multiple Rows</value>
+  </data>
+  <data name="GridStringId.LayoutViewMultiColumnModeBtnHint">
+    <value>Multiple Columns</value>
+  </data>
+  <data name="GridStringId.LayoutViewCarouselModeBtnHint">
+    <value>Carousel Mode</value>
+  </data>
+  <data name="GridStringId.LayoutViewPanBtnHint">
+    <value>Panning</value>
+  </data>
+  <data name="GridStringId.LayoutViewCustomizeBtnHint">
+    <value>Customization</value>
+  </data>
+  <data name="GridStringId.LayoutViewCloseZoomBtnHintClose">
+    <value>Restore View</value>
+  </data>
+  <data name="GridStringId.LayoutViewCloseZoomBtnHintZoom">
+    <value>Maximize Detail</value>
+  </data>
+  <data name="GridStringId.LayoutViewButtonApply">
+    <value>&amp;Apply</value>
+  </data>
+  <data name="GridStringId.LayoutViewButtonPreview">
+    <value>Show &amp;More Cards</value>
+  </data>
+  <data name="GridStringId.LayoutViewButtonOk">
+    <value>&amp;OK</value>
+  </data>
+  <data name="GridStringId.LayoutViewButtonCancel">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="GridStringId.LayoutViewButtonSaveLayout">
+    <value>Sa&amp;ve Layout...</value>
+  </data>
+  <data name="GridStringId.LayoutViewButtonLoadLayout">
+    <value>&amp;Load Layout...</value>
+  </data>
+  <data name="GridStringId.LayoutViewFormLoadLayoutCaption">
+    <value>Load Layout</value>
+  </data>
+  <data name="GridStringId.LayoutViewFormSaveLayoutCaption">
+    <value>Save Layout</value>
+  </data>
+  <data name="GridStringId.LayoutViewButtonCustomizeShow">
+    <value>&amp;Show Customization</value>
+  </data>
+  <data name="GridStringId.LayoutViewButtonCustomizeHide">
+    <value>Hide Customi&amp;zation</value>
+  </data>
+  <data name="GridStringId.LayoutViewButtonReset">
+    <value>&amp;Reset Template Card</value>
+  </data>
+  <data name="GridStringId.LayoutViewButtonShrinkToMinimum">
+    <value>&amp;Shrink Template Card</value>
+  </data>
+  <data name="GridStringId.LayoutViewPageTemplateCard">
+    <value>Template Card</value>
+  </data>
+  <data name="GridStringId.LayoutViewPageViewLayout">
+    <value>View Layout</value>
+  </data>
+  <data name="GridStringId.LayoutViewGroupCustomization">
+    <value>Customization</value>
+  </data>
+  <data name="GridStringId.LayoutViewGroupCaptions">
+    <value>Captions</value>
+  </data>
+  <data name="GridStringId.LayoutViewGroupIndents">
+    <value>Indents</value>
+  </data>
+  <data name="GridStringId.LayoutViewGroupHiddenItems">
+    <value>Hidden Items</value>
+  </data>
+  <data name="GridStringId.LayoutViewGroupTreeStructure">
+    <value>Layout Tree View</value>
+  </data>
+  <data name="GridStringId.LayoutViewGroupPropertyGrid">
+    <value>Property Grid</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelTextIndent">
+    <value>Text Indents</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelPadding">
+    <value>Padding</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelSpacing">
+    <value>Spacing</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelCaptionLocation">
+    <value>Field Caption Location:</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelGroupCaptionLocation">
+    <value>Group Caption Location:</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelTextAlignment">
+    <value>Field Caption Text Alignment:</value>
+  </data>
+  <data name="GridStringId.LayoutViewGroupView">
+    <value>View</value>
+  </data>
+  <data name="GridStringId.LayoutViewGroupLayout">
+    <value>Layout</value>
+  </data>
+  <data name="GridStringId.LayoutViewGroupCards">
+    <value>Cards</value>
+  </data>
+  <data name="GridStringId.LayoutViewGroupFields">
+    <value>Fields</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelShowLines">
+    <value>Show Lines</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelShowHeaderPanel">
+    <value>Show Header Panel</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelShowFilterPanel">
+    <value>Show Filter Panel:</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelScrollVisibility">
+    <value>Scroll Visibility:</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelViewMode">
+    <value>View Mode:</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelCardArrangeRule">
+    <value>Arrange Rule:</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelCardEdgeAlignment">
+    <value>Card Edge Alignment:</value>
+  </data>
+  <data name="GridStringId.LayoutViewGroupIntervals">
+    <value>Intervals</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelHorizontal">
+    <value>Horizontal Interval</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelVertical">
+    <value>Vertical Interval</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelShowCardCaption">
+    <value>Show Caption</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelShowCardExpandButton">
+    <value>Show Expand Button</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelShowCardBorder">
+    <value>Show Border</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelAllowFieldHotTracking">
+    <value>Allow Hot-Tracking</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelShowFieldBorder">
+    <value>Show Border</value>
+  </data>
+  <data name="GridStringId.LayoutViewLabelShowFieldHint">
+    <value>Show Hint</value>
+  </data>
+  <data name="GridStringId.LayoutViewCustomizationFormCaption">
+    <value>LayoutView Customization</value>
+  </data>
+  <data name="GridStringId.LayoutViewCustomizationFormDescription">
+    <value>Customize the card layout using drag-and-drop and customization menu, and preview data in the View Layout page.</value>
+  </data>
+  <data name="GridStringId.LayoutModifiedWarning">
+    <value>The layout has been modified.
+Do you want to save the changes?</value>
+  </data>
+  <data name="GridStringId.LayoutViewCardCaptionFormat">
+    <value>Record [{0} of {1}]</value>
+  </data>
+  <data name="GridStringId.LayoutViewFieldCaptionFormat">
+    <value>{0}:</value>
+  </data>
+  <data name="GridStringId.GroupSummaryEditorFormCaption">
+    <value>Group Summary Editor</value>
+  </data>
+  <data name="GridStringId.GroupSummaryEditorFormOkButton">
+    <value>OK</value>
+  </data>
+  <data name="GridStringId.GroupSummaryEditorFormCancelButton">
+    <value>Cancel</value>
+  </data>
+  <data name="GridStringId.GroupSummaryEditorFormItemsTabCaption">
+    <value>Items</value>
+  </data>
+  <data name="GridStringId.GroupSummaryEditorFormOrderTabCaption">
+    <value>Order</value>
+  </data>
+  <data name="GridStringId.GroupSummaryEditorSummaryMin">
+    <value>Min</value>
+  </data>
+  <data name="GridStringId.GroupSummaryEditorSummaryMax">
+    <value>Max</value>
+  </data>
+  <data name="GridStringId.GroupSummaryEditorSummaryAverage">
+    <value>Average</value>
+  </data>
+  <data name="GridStringId.GroupSummaryEditorSummarySum">
+    <value>Sum</value>
+  </data>
+  <data name="GridStringId.GroupSummaryEditorSummaryCount">
+    <value>Count</value>
+  </data>
+  <data name="GridStringId.FindControlFindButton">
+    <value>Find</value>
+  </data>
+  <data name="GridStringId.FindControlClearButton">
+    <value>Clear</value>
+  </data>
+  <data name="GridStringId.SearchLookUpMissingRows">
+    <value>To show all rows, press ENTER or click Find.
+To search for rows, type a search string and press ENTER or click Find.</value>
+  </data>
+  <data name="GridStringId.SearchLookUpAddNewButton">
+    <value>Add New</value>
+  </data>
+  <data name="GridStringId.MenuFooterAddSummaryItem">
+    <value>Add New Summary</value>
+  </data>
+  <data name="GridStringId.MenuFooterClearSummaryItems">
+    <value>Clear Summary Items</value>
+  </data>
+  <data name="GridStringId.MenuShowSplitItem">
+    <value>Split</value>
+  </data>
+  <data name="GridStringId.MenuHideSplitItem">
+    <value>Remove Split</value>
+  </data>
+  <data name="GridStringId.ServerRequestError">
+    <value>Error occurred during processing server request ({0}...)</value>
+  </data>
+  <data name="GridStringId.WindowWarningCaption">
+    <value>Warning</value>
+  </data>
+  <data name="GridStringId.EditFormUpdateButton">
+    <value>Update</value>
+  </data>
+  <data name="GridStringId.EditFormCancelButton">
+    <value>Cancel</value>
+  </data>
+  <data name="GridStringId.EditFormCancelMessage">
+    <value>Do you want to cancel editing?</value>
+  </data>
+  <data name="GridStringId.EditFormSaveMessage">
+    <value>Your data is modified. Do you want to save the changes?</value>
+  </data>
+  <data name="GridStringId.CheckboxSelectorColumnCaption">
+    <value>Selection</value>
+  </data>
+  <data name="GridStringId.FindNullPrompt">
+    <value>Enter text to search...</value>
+  </data>
+  <data name="GridStringId.SearchForBand">
+    <value>Search for a band...</value>
+  </data>
+</root>

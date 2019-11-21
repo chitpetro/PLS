@@ -1,0 +1,1013 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="PLS_2017" Class="KetNoiDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.2.10;Initial Catalog=PLS_2017;User ID=sa" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="PLS_2017ConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.account" Member="accounts">
+    <Type Name="account">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="uname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="pass" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="phongban" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="madonvi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IsActived" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tudong" Member="tudongs">
+    <Type Name="tudong">
+      <Column Name="maphieu" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="so" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.congviec" Member="congviecs">
+    <Type Name="congviec">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="tencongviec" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="nhomcongviec" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.doituong" Member="doituongs">
+    <Type Name="doituong">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="ten" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="nhom" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="loai" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="diachi" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="msthue" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="dienthoai" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fax" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dd" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="taikhoan" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="nganhang" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.donvi" Member="donvis">
+    <Type Name="donvi">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="tendonvi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="nhomdonvi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dvql" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.hopdong" Member="hopdongs">
+    <Type Name="hopdong">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="ngaylap" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ngaybatdau" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ngayketthuc" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="iddt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="pttt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="trangthai" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngduyet" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="so" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.hopdongct" Member="hopdongcts">
+    <Type Name="hopdongct">
+      <Column Name="idhd" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idsp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="diengiai" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="soluong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="dongia" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.nhomdoituong" Member="nhomdoituongs">
+    <Type Name="nhomdoituong">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="ten" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.sanpham" Member="sanphams">
+    <Type Name="sanpham">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="tensp" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="giaban" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="dvt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="loai" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="qlkho" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.thue" Member="thues">
+    <Type Name="thue">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="ten" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="thuesuat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="IsActived" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tiente" Member="tientes">
+    <Type Name="tiente">
+      <Column Name="tiente" Member="tiente1" Type="System.String" DbType="NVarChar(30)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.pnhapct" Member="pnhapcts">
+    <Type Name="pnhapct">
+      <Column Name="idpnhap" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idsanpham" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="diengiai" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="soluong" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="dongia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idcv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="loaithue" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="thue" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="chietkhau" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(30)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="nguyente" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="pnhap_pnhapct" Member="pnhap" ThisKey="idpnhap" OtherKey="id" Type="pnhap" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.t_skin" Member="t_skins">
+    <Type Name="t_skin">
+      <Column Name="tenskin" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="trangthai" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.skin" Member="skins">
+    <Type Name="skin">
+      <Column Name="tenskin" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="trangthai" Type="System.Boolean" DbType="Bit" IsPrimaryKey="true" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.hoadonct" Member="hoadoncts">
+    <Type Name="hoadonct">
+      <Column Name="idhoadon" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idsanpham" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="diengiai" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="soluong" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="dongia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idcv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="loaithue" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="thue" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="chietkhau" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(30)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="nguyente" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="hoadon_hoadonct" Member="hoadon" ThisKey="idhoadon" OtherKey="id" Type="hoadon" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_pnhapct" Member="View_pnhapcts">
+    <Type Name="View_pnhapct">
+      <Column Name="diengiai" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="tensp" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="soluong" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="dongia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="chietkhau" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="loaithue" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="thue" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idcv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idpnhap" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dvt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idsanpham" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="thuesuat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(30)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="nguyente" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tonban" Member="tonbans">
+    <Type Name="tonban">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ton" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tensp" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="giaban" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="dvt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_hoadonct" Member="View_hoadoncts">
+    <Type Name="View_hoadonct">
+      <Column Name="idhoadon" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idsanpham" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="diengiai" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="soluong" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="dongia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idcv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="loaithue" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="thue" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="chietkhau" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(30)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="nguyente" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tensp" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="dvt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="giaban" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tencongviec" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="thuesuat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ten" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Expr2" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.muccp" Member="muccps">
+    <Type Name="muccp">
+      <Column Name="id" Type="System.String" DbType="NVarChar(30)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="muccp" Member="muccp1" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.pnhap" Member="pnhaps">
+    <Type Name="pnhap">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="ngaynhap" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="iddt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="link" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="so" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="loainhap" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="pnhap_pnhapct" Member="pnhapcts" ThisKey="id" OtherKey="idpnhap" Type="pnhapct" />
+    </Type>
+  </Table>
+  <Table Name="dbo.nguon_rp" Member="nguon_rps">
+    <Type Name="nguon_rp">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[key]" Member="key" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Fifostock2" Member="Fifostock2s">
+    <Type Name="Fifostock2">
+      <Column Name="fdate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="prdt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PQty" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="RQty" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="AvQty" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Rt" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.nhaptrongky" Member="nhaptrongkies">
+    <Type Name="nhaptrongky">
+      <Column Name="idsanpham" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sln" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="gtn" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Fifostock" Member="Fifostocks">
+    <Type Name="Fifostock">
+      <Column Name="fdate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="prdt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PQty" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="RQty" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="AvQty" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Rt" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.xuattrongky" Member="xuattrongkies">
+    <Type Name="xuattrongky">
+      <Column Name="idsanpham" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="slx" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="gtx" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.dmpchi" Member="dmpchis">
+    <Type Name="dmpchi">
+      <Column Name="danhmuc" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="danhmuc_l" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.dmloaithu" Member="dmloaithus">
+    <Type Name="dmloaithu">
+      <Column Name="danhmuc" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="danhmuc_l" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.r_pxuat" Member="r_pxuats">
+    <Type Name="r_pxuat">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngayhd" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="iddt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ten" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tendonvi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="link" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="loaixuat" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idsanpham" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tensp" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="diengiai" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="soluong" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="dongia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="chietkhau" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thue" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="nguyente" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="dvt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tencongviec" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="nhomcongviec" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="idcv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.r_pnhap" Member="r_pnhaps">
+    <Type Name="r_pnhap">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngaynhap" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="iddt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ten" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tendonvi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="loainhap" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idsanpham" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tensp" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="dvt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="diengiai" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="soluong" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="dongia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thue" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="chietkhau" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="nguyente" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idcv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tencongviec" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="nhomcongviec" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="dv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.r_pchi" Member="r_pchis">
+    <Type Name="r_pchi">
+      <Column Name="ten" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="diachi" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="tendonvi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tencongviec" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="nhomcongviec" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="muccp" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngaychi" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="iddt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="loaichi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="diengiai" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="sotien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idcv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="nguyente" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idmuccp" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="dv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="link" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.r_pthu" Member="r_pthus">
+    <Type Name="r_pthu">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngaythu" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="iddt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ten" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="diachi" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tendonvi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="loaithu" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="diengiai" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idcv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tencongviec" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="nhomcongviec" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="nguyente" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idmuccp" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="muccp" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="dv" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="link" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.sodocotbom" Member="sodocotboms">
+    <Type Name="sodocotbom">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="cotbom" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="voibom" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idsp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="stt" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.chotcongto" Member="chotcongtos">
+    <Type Name="chotcongto">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="ngay" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="so" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="chotcongto_chotcongtoct" Member="chotcongtocts" ThisKey="id" OtherKey="idct" Type="chotcongtoct" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tam_chotcongtoct" Member="tam_chotcongtocts">
+    <Type Name="tam_chotcongtoct">
+      <Column Name="idct" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="cotbom" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="voibom" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="loaisp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="chotdau" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="chotcuoi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="soluong" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="dongia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="so" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="stt" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PhanQuyen2" Member="PhanQuyen2s">
+    <Type Name="PhanQuyen2">
+      <Column Name="TaiKhoan" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="ChucNang" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="Xem" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Them" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Sua" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Xoa" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="ChucNang_PhanQuyen2" Member="ChucNang1" ThisKey="ChucNang" OtherKey="MaChucNang" Type="ChucNang" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ChucNang" Member="ChucNangs">
+    <Type Name="ChucNang">
+      <Column Name="MaChucNang" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenChucNang" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="ChucNangCha" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="ChucNang_PhanQuyen2" Member="PhanQuyen2s" ThisKey="MaChucNang" OtherKey="ChucNang" Type="PhanQuyen2" />
+    </Type>
+  </Table>
+  <Table Name="dbo.dmtk" Member="dmtks">
+    <Type Name="dmtk">
+      <Column Name="matk" Type="System.String" DbType="NVarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tentk" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="matk_jp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tentk_jp" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="tentk_khac" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="tentk_kr" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="loaitk" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="tk_th" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="loai_tk" Type="System.Decimal" DbType="Decimal(1,0) NOT NULL" CanBeNull="false" />
+      <Column Name="tkme" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="captk" Type="System.Decimal" DbType="Decimal(1,0) NOT NULL" CanBeNull="false" />
+      <Column Name="tk_sc" Type="System.Decimal" DbType="Decimal(1,0) NOT NULL" CanBeNull="false" />
+      <Column Name="tk_cn" Type="System.Decimal" DbType="Decimal(1,0) NOT NULL" CanBeNull="false" />
+      <Column Name="kieusodu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="doituong" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="chiphi" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="congviec" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="soluong" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="vat" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="thanhtoancongno" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="nganhang" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="tkcuahang" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="hanghoa" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="sanpham" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="loaikhoan" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="sotk_nh" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="nganhang_nh" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ma_nh" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="active" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.pthu" Member="pthus">
+    <Type Name="pthu">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="ngaythu" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="iddt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dv" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="link" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="loaithu" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="so" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tk" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="pthu_pthuct" Member="pthucts" ThisKey="id" OtherKey="idthu" Type="pthuct" />
+    </Type>
+  </Table>
+  <Table Name="dbo.pthuct" Member="pthucts">
+    <Type Name="pthuct">
+      <Column Name="idthu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="diengiai" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idcv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(30)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="nguyente" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idmuccp" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tkco" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="pthu_pthuct" Member="pthu" ThisKey="idthu" OtherKey="id" Type="pthu" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_pthu" Member="View_pthus">
+    <Type Name="View_pthu">
+      <Column Name="idthu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="diengiai" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idcv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(30)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="nguyente" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idmuccp" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tkco" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.pchi" Member="pchis">
+    <Type Name="pchi">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="ngaychi" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="iddt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dv" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="link" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="loaichi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="so" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tk" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="pchi_pchict" Member="pchicts" ThisKey="id" OtherKey="idchi" Type="pchict" />
+    </Type>
+  </Table>
+  <Table Name="dbo.pchict" Member="pchicts">
+    <Type Name="pchict">
+      <Column Name="idchi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="diengiai" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="sotien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idcv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(30)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="nguyente" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idmuccp" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tkno" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="pchi_pchict" Member="pchi" ThisKey="idchi" OtherKey="id" Type="pchi" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_pchi" Member="View_pchis">
+    <Type Name="View_pchi">
+      <Column Name="idchi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="diengiai" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="sotien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idcv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(30)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="nguyente" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idmuccp" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tkno" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.hoadon" Member="hoadons">
+    <Type Name="hoadon">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="ngayhd" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="iddt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="link" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="so" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="loaixuat" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="soVAT" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="hoadon_hoadonct" Member="hoadoncts" ThisKey="id" OtherKey="idhoadon" Type="hoadonct" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ct_tk" Member="ct_tks">
+    <Type Name="ct_tk">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="loaichungtu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="machungtu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngaychungtu" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ngaylchungtu" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="sochungtu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="doituong" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="diengiai" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="tk_no" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tk_co" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PS" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="PS_nt" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idsp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sanpham" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="loai" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="idcv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idmuccp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.giasp" Member="giasps">
+    <Type Name="giasp">
+      <Column Name="id" Type="System.String" DbType="NVarChar(30)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idsp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="giaban" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="kiemke" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.dmpnhap" Member="dmpnhaps">
+    <Type Name="dmpnhap">
+      <Column Name="danhmuc" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="danhmuc_l" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.dmpxuat" Member="dmpxuats">
+    <Type Name="dmpxuat">
+      <Column Name="danhmuc" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="danhmuc_l" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.kt_chotcongto" Member="kt_chotcongtos">
+    <Type Name="kt_chotcongto">
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngay" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="loaisp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sl" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tt" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.khoasochungtu" Member="khoasochungtus">
+    <Type Name="khoasochungtu">
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="ngaykhoaso" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.phongban" Member="phongbans">
+    <Type Name="phongban">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="ten" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.thongke_tonkho" Member="thongke_tonkhos">
+    <Type Name="thongke_tonkho">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tendonvi" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="idsp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tensp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_tienno" Member="View_tiennos">
+    <Type Name="View_tienno">
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="iddt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ten" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.kt_pxuat" Member="kt_pxuats">
+    <Type Name="kt_pxuat">
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngayhd" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="idsanpham" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="slxuat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ttxuat" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.kt_banhang" Member="kt_banhangs">
+    <Type Name="kt_banhang">
+      <Column Name="ngay" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="loaisp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sl" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="slxuat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tt" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ttxuat" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_XoaNhanh_ChotCT_HoaDon_PThu" Member="View_XoaNhanh_ChotCT_HoaDon_PThus">
+    <Type Name="View_XoaNhanh_ChotCT_HoaDon_PThu">
+      <Column Name="idCongTo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="icCongToCT" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idHoaDon" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idHoaDonCT" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idPThu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idPThuCT" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.r_chotcongto" Member="r_chotcongtos">
+    <Type Name="r_chotcongto">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngay" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tendonvi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="cotbom" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="voibom" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="loaisp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="chotdau" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="chotcuoi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="soluong" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="dongia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="so" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MaTim" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="saiso" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.chotcongtoct" Member="chotcongtocts">
+    <Type Name="chotcongtoct">
+      <Column Name="idct" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="cotbom" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="voibom" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="loaisp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="chotdau" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="chotcuoi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="soluong" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="dongia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="so" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="stt" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MaTim" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="saiso" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="chotcongto_chotcongtoct" Member="chotcongto" ThisKey="idct" OtherKey="id" Type="chotcongto" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ls_gia" Member="ls_gias">
+    <Type Name="ls_gia">
+      <Column Name="id" Type="System.String" DbType="NVarChar(20)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="idsp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="giacu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="giamoi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thoigian" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="so" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.r_ls_gia" Member="r_ls_gias">
+    <Type Name="r_ls_gia">
+      <Column Name="tendonvi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="idsp" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="giacu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="giamoi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thoigian" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="so" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.r_giasp" Member="r_giasps">
+    <Type Name="r_giasp">
+      <Column Name="tensp" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="dvt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="loai" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="qlkho" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="giaban" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="kiemke" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idsp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.dk_rp" Member="dk_rps">
+    <Type Name="dk_rp">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[key]" Member="key" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="loai" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="[user]" Member="user" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.history" Member="histories">
+    <Type Name="history">
+      <Column Name="ma" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="hoatdong" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="nguoi" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="may" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="thoigian" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="donvi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_histories" Member="View_histories">
+    <Type Name="View_history">
+      <Column Name="ma" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="hoatdong" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="nguoi" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="may" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="thoigian" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="donvi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngay" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="so" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idct" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="loaisp" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ssl" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="stt" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="songay" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.r_chotct_ngaymax" Member="r_chotct_ngaymaxes">
+    <Type Name="r_chotct_ngaymax">
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngay" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="so" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.pttoan" Member="pttoans">
+    <Type Name="pttoan">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="ngaythu" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="iddt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dv" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="link" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="loaithu" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="so" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="pttoan_pttoanct" Member="pttoancts" ThisKey="id" OtherKey="idttoan" Type="pttoanct" />
+    </Type>
+  </Table>
+  <Table Name="dbo.pttoanct" Member="pttoancts">
+    <Type Name="pttoanct">
+      <Column Name="idttoan" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="diengiai" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idcv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(30)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="nguyente" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idmuccp" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Association Name="pttoan_pttoanct" Member="pttoan" ThisKey="idttoan" OtherKey="id" Type="pttoan" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_pttoan" Member="View_pttoans">
+    <Type Name="View_pttoan">
+      <Column Name="idttoan" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="diengiai" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idcv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(30)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="nguyente" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idmuccp" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.r_pttoan" Member="r_pttoans">
+    <Type Name="r_pttoan">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="ngaythu" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="iddt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ten" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tendonvi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="dv" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="link" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="loaithu" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="so" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="diengiai" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idcv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="nguyente" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idmuccp" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="idttoan" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.pcantru" Member="pcantrus">
+    <Type Name="pcantru">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="ngayct" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="dttruno" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dtcantru" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dv" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="so" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="pcantru_pcantruct" Member="pcantructs" ThisKey="id" OtherKey="idcantru" Type="pcantruct" />
+    </Type>
+  </Table>
+  <Table Name="dbo.pcantruct" Member="pcantructs">
+    <Type Name="pcantruct">
+      <Column Name="idcantru" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="diengiai" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idcv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(30)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="nguyente" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idmuccp" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Association Name="pcantru_pcantruct" Member="pcantru" ThisKey="idcantru" OtherKey="id" Type="pcantru" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.r_pcantru" Member="r_pcantrus">
+    <Type Name="r_pcantru">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngayct" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="dttruno" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dtcantru" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tendonvi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="dv" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="so" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="tiente" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="tygia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="diengiai" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idcv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="nguyente" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idmuccp" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_pcantru" Member="View_pcantrus">
+    <Type Name="View_pcantru">
+      <Column Name="idcantru" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="diengiai" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idcv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="nguyente" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idmuccp" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="id" Type="System.String" DbType="NVarChar(30)" IsPrimaryKey="true" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tonfifo" Member="tonfifos">
+    <Type Name="tonfifo">
+      <Column Name="id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sln" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="gtn" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="slx" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="gtx" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tensp" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="tendonvi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="dvt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idnv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.test" Method="test">
+    <Parameter Name="tungay" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="denngay" Type="System.DateTime" DbType="Date" />
+    <ElementType Name="testResult">
+      <Column Name="iddv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="iddt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ten" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="thanhtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

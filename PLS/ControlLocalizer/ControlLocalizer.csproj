@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5A4CC0D5-94C6-454F-89F2-7BBA9C5039BB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ControlLocalizer</RootNamespace>
+    <AssemblyName>ControlLocalizer</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v18.2.UI, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v18.2.Core, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v18.2.Wizard, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v18.2.Extensions, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlLocalizer\changeFont.cs" />
+    <Compile Include="ControlLocalizer\changeTime.cs" />
+    <Compile Include="ControlLocalizer\checkKhoaSo.cs" />
+    <Compile Include="ControlLocalizer\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlLocalizer\FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlLocalizer\LanguageHelper.cs" />
+    <Compile Include="ControlLocalizer\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="ControlLocalizer\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="ControlLocalizer\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="ControlLocalizer\obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="ControlLocalizer\obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="ControlLocalizer\obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="ControlLocalizer\Program.cs" />
+    <Compile Include="ControlLocalizer\Properties\Resources.Designer.cs" />
+    <Compile Include="ControlLocalizer\Properties\Settings.Designer.cs" />
+    <Compile Include="ControlLocalizer\rTime.cs" />
+    <Compile Include="ControlLocalizer\tran_rp.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Test\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\Program.cs" />
+    <Compile Include="Test\Properties\AssemblyInfo.cs" />
+    <Compile Include="Test\Properties\Resources.Designer.cs" />
+    <Compile Include="Test\Properties\Settings.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\ControlLocalizer\v14\.suo" />
+    <None Include="bin\Debug\lang.zip" />
+    <None Include="ControlLocalizer.v12.suo" />
+    <None Include="ControlLocalizer\bin\Debug\lang.zip" />
+    <None Include="ControlLocalizer\obj\Debug\ControlLocalizer.csproj.GenerateResource.Cache" />
+    <None Include="ControlLocalizer\obj\Debug\ControlLocalizer.csprojResolveAssemblyReference.cache" />
+    <None Include="ControlLocalizer\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="ControlLocalizer\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="ControlLocalizer\obj\Release\ControlLocalizer.csproj.GenerateResource.Cache" />
+    <None Include="ControlLocalizer\obj\Release\ControlLocalizer.csprojResolveAssemblyReference.cache" />
+    <None Include="ControlLocalizer\obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="ControlLocalizer\Properties\Settings.settings" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Test\bin\Debug\Test.vshost.exe.manifest" />
+    <None Include="Test\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="Test\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Test\obj\Debug\Test.csproj.GenerateResource.Cache" />
+    <None Include="Test\obj\Debug\Test.csprojResolveAssemblyReference.cache" />
+    <None Include="Test\Properties\Settings.settings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\BUS.dll" />
+    <Content Include="bin\Debug\BUS.pdb" />
+    <Content Include="bin\Debug\ControlLocalizer.dll" />
+    <Content Include="bin\Debug\ControlLocalizer.pdb" />
+    <Content Include="bin\Debug\DAL.dll" />
+    <Content Include="bin\Debug\DAL.pdb" />
+    <Content Include="ControlLocalizer.sln" />
+    <Content Include="ControlLocalizer\bin\Debug\BUS.dll" />
+    <Content Include="ControlLocalizer\bin\Debug\BUS.pdb" />
+    <Content Include="ControlLocalizer\bin\Debug\ControlLocalizer.dll" />
+    <Content Include="ControlLocalizer\bin\Debug\ControlLocalizer.pdb" />
+    <Content Include="ControlLocalizer\bin\Debug\DAL.dll" />
+    <Content Include="ControlLocalizer\bin\Debug\DAL.pdb" />
+    <Content Include="ControlLocalizer\bin\Release\BUS.dll" />
+    <Content Include="ControlLocalizer\bin\Release\BUS.pdb" />
+    <Content Include="ControlLocalizer\bin\Release\ControlLocalizer.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ControlLocalizer.pdb" />
+    <Content Include="ControlLocalizer\bin\Release\DAL.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DAL.pdb" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.Charts.v15.1.Core.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.CodeParser.v15.1.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.Data.v15.1.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.Data.v15.1.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.DataAccess.v15.1.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.DataAccess.v15.1.UI.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.DataAccess.v15.1.UI.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.DataAccess.v15.1.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.Office.v15.1.Core.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.Office.v15.1.Core.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.PivotGrid.v15.1.Core.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.PivotGrid.v15.1.Core.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.Printing.v15.1.Core.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.Printing.v15.1.Core.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.RichEdit.v15.1.Core.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.RichEdit.v15.1.Core.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.Sparkline.v15.1.Core.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.Sparkline.v15.1.Core.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.Utils.v15.1.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.Utils.v15.1.UI.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.Utils.v15.1.UI.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.Utils.v15.1.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.Xpo.v15.1.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.Xpo.v15.1.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraBars.v15.1.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraBars.v15.1.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraCharts.v15.1.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraCharts.v15.1.Extensions.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraCharts.v15.1.Wizard.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraCharts.v15.1.Wizard.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraCharts.v15.1.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraEditors.v15.1.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraEditors.v15.1.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraGauges.v15.1.Core.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraGauges.v15.1.Core.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraGrid.v15.1.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraGrid.v15.1.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraLayout.v15.1.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraLayout.v15.1.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraNavBar.v15.1.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraNavBar.v15.1.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraPivotGrid.v15.1.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraPivotGrid.v15.1.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraPrinting.v15.1.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraPrinting.v15.1.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraReports.v15.1.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraReports.v15.1.Extensions.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraReports.v15.1.Extensions.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraReports.v15.1.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraRichEdit.v15.1.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraRichEdit.v15.1.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraTreeList.v15.1.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraTreeList.v15.1.xml" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraVerticalGrid.v15.1.dll" />
+    <Content Include="ControlLocalizer\bin\Release\DevExpress.XtraVerticalGrid.v15.1.xml" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.Data.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.DataAccess.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.DataAccess.v15.1.UI.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.Office.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.PivotGrid.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.Printing.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.RichEdit.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.Sparkline.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.Utils.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.Utils.v15.1.UI.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.Xpo.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.XtraBars.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.XtraCharts.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.XtraCharts.v15.1.Wizard.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.XtraEditors.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.XtraGauges.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.XtraGrid.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.XtraLayout.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.XtraNavBar.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.XtraPivotGrid.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.XtraPrinting.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.XtraReports.v15.1.Extensions.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.XtraReports.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.XtraRichEdit.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.XtraTreeList.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\de\DevExpress.XtraVerticalGrid.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.Data.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.DataAccess.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.DataAccess.v15.1.UI.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.Office.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.PivotGrid.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.Printing.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.RichEdit.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.Sparkline.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.Utils.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.Utils.v15.1.UI.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.Xpo.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.XtraBars.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.XtraCharts.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.XtraCharts.v15.1.Wizard.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.XtraEditors.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.XtraGauges.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.XtraGrid.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.XtraLayout.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.XtraNavBar.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.XtraPivotGrid.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.XtraPrinting.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.XtraReports.v15.1.Extensions.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.XtraReports.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.XtraRichEdit.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.XtraTreeList.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\es\DevExpress.XtraVerticalGrid.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.Data.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.DataAccess.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.DataAccess.v15.1.UI.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.Office.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.PivotGrid.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.Printing.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.RichEdit.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.Sparkline.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.Utils.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.Utils.v15.1.UI.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.Xpo.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.XtraBars.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.XtraCharts.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.XtraCharts.v15.1.Wizard.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.XtraEditors.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.XtraGauges.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.XtraGrid.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.XtraLayout.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.XtraNavBar.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.XtraPivotGrid.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.XtraPrinting.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.XtraReports.v15.1.Extensions.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.XtraReports.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.XtraRichEdit.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.XtraTreeList.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ja\DevExpress.XtraVerticalGrid.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.Data.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.DataAccess.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.DataAccess.v15.1.UI.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.Office.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.PivotGrid.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.Printing.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.RichEdit.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.Sparkline.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.Utils.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.Utils.v15.1.UI.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.Xpo.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.XtraBars.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.XtraCharts.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.XtraCharts.v15.1.Wizard.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.XtraEditors.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.XtraGauges.v15.1.Core.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.XtraGrid.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.XtraLayout.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.XtraNavBar.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.XtraPivotGrid.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.XtraPrinting.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.XtraReports.v15.1.Extensions.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.XtraReports.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.XtraRichEdit.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.XtraTreeList.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\bin\Release\ru\DevExpress.XtraVerticalGrid.v15.1.resources.dll" />
+    <Content Include="ControlLocalizer\ControlLocalizer.csproj" />
+    <Content Include="ControlLocalizer\ControlLocalizer.csproj.user" />
+    <Content Include="ControlLocalizer\obj\Debug\ControlLocalizer.csproj.FileListAbsolute.txt" />
+    <Content Include="ControlLocalizer\obj\Debug\ControlLocalizer.dll" />
+    <Content Include="ControlLocalizer\obj\Debug\controllocalizer.dll.licenses" />
+    <Content Include="ControlLocalizer\obj\Debug\ControlLocalizer.pdb" />
+    <Content Include="ControlLocalizer\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="ControlLocalizer\obj\Release\ControlLocalizer.csproj.FileListAbsolute.txt" />
+    <Content Include="ControlLocalizer\obj\Release\ControlLocalizer.dll" />
+    <Content Include="ControlLocalizer\obj\Release\controllocalizer.dll.licenses" />
+    <Content Include="ControlLocalizer\obj\Release\ControlLocalizer.pdb" />
+    <Content Include="ControlLocalizer\obj\Release\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="Test\bin\Debug\ControlLocalizer.dll" />
+    <Content Include="Test\bin\Debug\ControlLocalizer.pdb" />
+    <Content Include="Test\bin\Debug\DevExpress.Charts.v15.1.Core.dll" />
+    <Content Include="Test\bin\Debug\DevExpress.Data.v15.1.dll" />
+    <Content Include="Test\bin\Debug\DevExpress.Data.v15.1.xml" />
+    <Content Include="Test\bin\Debug\DevExpress.Office.v15.1.Core.dll" />
+    <Content Include="Test\bin\Debug\DevExpress.Office.v15.1.Core.xml" />
+    <Content Include="Test\bin\Debug\DevExpress.PivotGrid.v15.1.Core.dll" />
+    <Content Include="Test\bin\Debug\DevExpress.PivotGrid.v15.1.Core.xml" />
+    <Content Include="Test\bin\Debug\DevExpress.Printing.v15.1.Core.dll" />
+    <Content Include="Test\bin\Debug\DevExpress.Printing.v15.1.Core.xml" />
+    <Content Include="Test\bin\Debug\DevExpress.RichEdit.v15.1.Core.dll" />
+    <Content Include="Test\bin\Debug\DevExpress.RichEdit.v15.1.Core.xml" />
+    <Content Include="Test\bin\Debug\DevExpress.Sparkline.v15.1.Core.dll" />
+    <Content Include="Test\bin\Debug\DevExpress.Sparkline.v15.1.Core.xml" />
+    <Content Include="Test\bin\Debug\DevExpress.Utils.v15.1.dll" />
+    <Content Include="Test\bin\Debug\DevExpress.Utils.v15.1.xml" />
+    <Content Include="Test\bin\Debug\DevExpress.XtraBars.v15.1.dll" />
+    <Content Include="Test\bin\Debug\DevExpress.XtraBars.v15.1.xml" />
+    <Content Include="Test\bin\Debug\DevExpress.XtraCharts.v15.1.dll" />
+    <Content Include="Test\bin\Debug\DevExpress.XtraCharts.v15.1.xml" />
+    <Content Include="Test\bin\Debug\DevExpress.XtraEditors.v15.1.dll" />
+    <Content Include="Test\bin\Debug\DevExpress.XtraEditors.v15.1.xml" />
+    <Content Include="Test\bin\Debug\DevExpress.XtraGauges.v15.1.Core.dll" />
+    <Content Include="Test\bin\Debug\DevExpress.XtraGauges.v15.1.Core.xml" />
+    <Content Include="Test\bin\Debug\DevExpress.XtraGrid.v15.1.dll" />
+    <Content Include="Test\bin\Debug\DevExpress.XtraGrid.v15.1.xml" />
+    <Content Include="Test\bin\Debug\DevExpress.XtraLayout.v15.1.dll" />
+    <Content Include="Test\bin\Debug\DevExpress.XtraLayout.v15.1.xml" />
+    <Content Include="Test\bin\Debug\DevExpress.XtraPrinting.v15.1.dll" />
+    <Content Include="Test\bin\Debug\DevExpress.XtraPrinting.v15.1.xml" />
+    <Content Include="Test\bin\Debug\DevExpress.XtraReports.v15.1.dll" />
+    <Content Include="Test\bin\Debug\DevExpress.XtraReports.v15.1.xml" />
+    <Content Include="Test\bin\Debug\DevExpress.XtraTreeList.v15.1.dll" />
+    <Content Include="Test\bin\Debug\DevExpress.XtraTreeList.v15.1.xml" />
+    <Content Include="Test\bin\Debug\de\DevExpress.Data.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\de\DevExpress.Office.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\de\DevExpress.PivotGrid.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\de\DevExpress.Printing.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\de\DevExpress.RichEdit.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\de\DevExpress.Sparkline.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\de\DevExpress.Utils.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\de\DevExpress.XtraBars.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\de\DevExpress.XtraCharts.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\de\DevExpress.XtraEditors.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\de\DevExpress.XtraGauges.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\de\DevExpress.XtraGrid.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\de\DevExpress.XtraLayout.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\de\DevExpress.XtraPrinting.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\de\DevExpress.XtraReports.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\de\DevExpress.XtraTreeList.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\es\DevExpress.Data.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\es\DevExpress.Office.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\es\DevExpress.PivotGrid.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\es\DevExpress.Printing.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\es\DevExpress.RichEdit.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\es\DevExpress.Sparkline.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\es\DevExpress.Utils.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\es\DevExpress.XtraBars.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\es\DevExpress.XtraCharts.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\es\DevExpress.XtraEditors.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\es\DevExpress.XtraGauges.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\es\DevExpress.XtraGrid.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\es\DevExpress.XtraLayout.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\es\DevExpress.XtraPrinting.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\es\DevExpress.XtraReports.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\es\DevExpress.XtraTreeList.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\ja\DevExpress.Data.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\ja\DevExpress.Office.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\ja\DevExpress.PivotGrid.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\ja\DevExpress.Printing.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\ja\DevExpress.RichEdit.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\ja\DevExpress.Sparkline.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\ja\DevExpress.Utils.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\ja\DevExpress.XtraBars.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\ja\DevExpress.XtraCharts.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\ja\DevExpress.XtraEditors.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\ja\DevExpress.XtraGauges.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\ja\DevExpress.XtraGrid.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\ja\DevExpress.XtraLayout.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\ja\DevExpress.XtraPrinting.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\ja\DevExpress.XtraReports.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\ja\DevExpress.XtraTreeList.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\Language\BarLocalizer.xml" />
+    <Content Include="Test\bin\Debug\Language\GridLocalizer.xml" />
+    <Content Include="Test\bin\Debug\Language\Language.xml" />
+    <Content Include="Test\bin\Debug\Language\Localizer.xml" />
+    <Content Include="Test\bin\Debug\Language\PreviewLocalizer.xml" />
+    <Content Include="Test\bin\Debug\ru\DevExpress.Data.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\ru\DevExpress.Office.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\ru\DevExpress.PivotGrid.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\ru\DevExpress.Printing.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\ru\DevExpress.RichEdit.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\ru\DevExpress.Sparkline.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\ru\DevExpress.Utils.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\ru\DevExpress.XtraBars.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\ru\DevExpress.XtraCharts.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\ru\DevExpress.XtraEditors.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\ru\DevExpress.XtraGauges.v15.1.Core.resources.dll" />
+    <Content Include="Test\bin\Debug\ru\DevExpress.XtraGrid.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\ru\DevExpress.XtraLayout.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\ru\DevExpress.XtraPrinting.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\ru\DevExpress.XtraReports.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\ru\DevExpress.XtraTreeList.v15.1.resources.dll" />
+    <Content Include="Test\bin\Debug\Test.exe" />
+    <Content Include="Test\bin\Debug\Test.pdb" />
+    <Content Include="Test\bin\Debug\Test.vshost.exe" />
+    <Content Include="Test\obj\Debug\Test.csproj.FileListAbsolute.txt" />
+    <Content Include="Test\obj\Debug\Test.exe" />
+    <Content Include="Test\obj\Debug\test.exe.licenses" />
+    <Content Include="Test\obj\Debug\Test.pdb" />
+    <Content Include="Test\Test.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ControlLocalizer\FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlLocalizer\obj\Debug\ControlLocalizer.FrmMain.resources" />
+    <EmbeddedResource Include="ControlLocalizer\obj\Debug\ControlLocalizer.Properties.Resources.resources" />
+    <EmbeddedResource Include="ControlLocalizer\obj\Release\ControlLocalizer.FrmMain.resources" />
+    <EmbeddedResource Include="ControlLocalizer\obj\Release\ControlLocalizer.Properties.Resources.resources" />
+    <EmbeddedResource Include="ControlLocalizer\Properties\licenses.licx" />
+    <EmbeddedResource Include="ControlLocalizer\Properties\Resources.resx" />
+    <EmbeddedResource Include="Test\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\obj\Debug\Test.Form1.resources" />
+    <EmbeddedResource Include="Test\obj\Debug\Test.Properties.Resources.resources" />
+    <EmbeddedResource Include="Test\Properties\licenses.licx" />
+    <EmbeddedResource Include="Test\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="Properties\" />
+    <Folder Include="Test\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{eb68a4aa-5983-4201-82ac-f3bdd7d30971}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{e079dbc6-30af-4e22-ac04-10171dc49294}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

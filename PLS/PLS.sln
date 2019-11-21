@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{6A216B83-0A9B-4BC1-9150-EA378F8F5353}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{E079DBC6-30AF-4E22-AC04-10171DC49294}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BUS", "BUS\BUS.csproj", "{EB68A4AA-5983-4201-82AC-F3BDD7D30971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlLocalizer", "ControlLocalizer\ControlLocalizer.csproj", "{5A4CC0D5-94C6-454F-89F2-7BBA9C5039BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A216B83-0A9B-4BC1-9150-EA378F8F5353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A216B83-0A9B-4BC1-9150-EA378F8F5353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A216B83-0A9B-4BC1-9150-EA378F8F5353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A216B83-0A9B-4BC1-9150-EA378F8F5353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E079DBC6-30AF-4E22-AC04-10171DC49294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E079DBC6-30AF-4E22-AC04-10171DC49294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E079DBC6-30AF-4E22-AC04-10171DC49294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E079DBC6-30AF-4E22-AC04-10171DC49294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB68A4AA-5983-4201-82AC-F3BDD7D30971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB68A4AA-5983-4201-82AC-F3BDD7D30971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB68A4AA-5983-4201-82AC-F3BDD7D30971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB68A4AA-5983-4201-82AC-F3BDD7D30971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A4CC0D5-94C6-454F-89F2-7BBA9C5039BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A4CC0D5-94C6-454F-89F2-7BBA9C5039BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A4CC0D5-94C6-454F-89F2-7BBA9C5039BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A4CC0D5-94C6-454F-89F2-7BBA9C5039BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
