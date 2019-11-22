@@ -13,6 +13,7 @@ using DevExpress.XtraEditors;
 using System.Data.Linq;
 using DevExpress.XtraReports.UI;
 using ControlLocalizer;
+using DevExpress.Data;
 using DevExpress.XtraBars;
 using GUI.Libs;
 
@@ -48,7 +49,8 @@ namespace GUI
 
             if (lst.dvql == "0")
             {
-                gridView1.Columns["loaisp"].GroupIndex = 1;
+                gridView1.Columns["loaisp"].GroupIndex = 0;
+                gridView1.Columns["cotbom"].SortOrder = ColumnSortOrder.Ascending;
                 btnct.Enabled = true;
                 btnmsp.Enabled = false;
 
@@ -715,7 +717,10 @@ namespace GUI
             dv.dvql = "0";
             db.SubmitChanges();
             gridView1.ClearGrouping();
-            gridView1.Columns["loaisp"].GroupIndex = 1;
+          //  gridView1.Columns["loaisp"].GroupIndex = 1;
+           
+           gridView1.Columns["cotbom"].SortOrder = ColumnSortOrder.Ascending;
+            gridView1.Columns["loaisp"].GroupIndex = 0;
             btnct.Enabled = true;
             btnmsp.Enabled = false;
             gridView1.ExpandAllGroups();

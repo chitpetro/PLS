@@ -308,7 +308,7 @@ namespace GUI
         private void btnpnhap_ItemClick(object sender, ItemClickEventArgs e)
         {
             Biencucbo.QuyenDangChon = e.Item.Tag as PhanQuyen2;
-            OpenForm<f_pnhap2>();
+            OpenForm<f_pnhap>();
         }
 
         private void btnskinht_ItemClick(object sender, ItemClickEventArgs e)

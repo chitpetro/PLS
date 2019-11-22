@@ -958,3 +958,47 @@ F:\Solution\winform\Code\PLS_ok\Code PLS\2019\Thang 08\26082019\BUS\bin\Debug\ru
 F:\Solution\winform\Code\PLS_ok\Code PLS\2019\Thang 08\26082019\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 F:\Solution\winform\Code\PLS_ok\Code PLS\2019\Thang 08\26082019\BUS\obj\Debug\BUS.dll
 F:\Solution\winform\Code\PLS_ok\Code PLS\2019\Thang 08\26082019\BUS\obj\Debug\BUS.pdb
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\BUS.dll.config
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\BUS.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\BUS.pdb
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\DAL.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\DevExpress.XtraEditors.v18.2.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\DevExpress.Utils.v18.2.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\DevExpress.Data.v18.2.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\DevExpress.Printing.v18.2.Core.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\DevExpress.Sparkline.v18.2.Core.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\DevExpress.Pdf.v18.2.Core.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\DAL.pdb
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\DevExpress.XtraEditors.v18.2.xml
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\DevExpress.Utils.v18.2.xml
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\DevExpress.Data.v18.2.xml
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\DevExpress.Printing.v18.2.Core.xml
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\DevExpress.Sparkline.v18.2.Core.xml
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\DevExpress.Pdf.v18.2.Core.xml
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\de\DevExpress.XtraEditors.v18.2.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\es\DevExpress.XtraEditors.v18.2.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\ja\DevExpress.XtraEditors.v18.2.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\ru\DevExpress.XtraEditors.v18.2.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\de\DevExpress.Utils.v18.2.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\es\DevExpress.Utils.v18.2.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\ja\DevExpress.Utils.v18.2.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\ru\DevExpress.Utils.v18.2.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\de\DevExpress.Data.v18.2.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\es\DevExpress.Data.v18.2.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\ja\DevExpress.Data.v18.2.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\ru\DevExpress.Data.v18.2.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\de\DevExpress.Printing.v18.2.Core.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\es\DevExpress.Printing.v18.2.Core.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\ja\DevExpress.Printing.v18.2.Core.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\ru\DevExpress.Printing.v18.2.Core.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\de\DevExpress.Sparkline.v18.2.Core.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\es\DevExpress.Sparkline.v18.2.Core.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\ja\DevExpress.Sparkline.v18.2.Core.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\ru\DevExpress.Sparkline.v18.2.Core.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\de\DevExpress.Pdf.v18.2.Core.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\es\DevExpress.Pdf.v18.2.Core.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\ja\DevExpress.Pdf.v18.2.Core.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\bin\Debug\ru\DevExpress.Pdf.v18.2.Core.resources.dll
+F:\Solution\GIT\PLS\PLS\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+F:\Solution\GIT\PLS\PLS\BUS\obj\Debug\BUS.dll
+F:\Solution\GIT\PLS\PLS\BUS\obj\Debug\BUS.pdb
