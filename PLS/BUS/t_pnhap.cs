@@ -10,7 +10,7 @@ namespace BUS
     public class t_pnhap
     {
         KetNoiDBDataContext db = new KetNoiDBDataContext();
-        public void moipn(string id, DateTime ngaynhap, string iddt, string iddv, string idnv, string ghichu, int so, string loainhap, string tiente, float tygia)
+        public void moipn(string id, DateTime ngaynhap, string iddt, string iddv, string idnv, string ghichu, int so, string loainhap, string tiente, float tygia, double tch)
         {
             pnhap pn = new pnhap();
             pn.id = id;
@@ -23,10 +23,11 @@ namespace BUS
             pn.loainhap = loainhap;
             pn.tiente = tiente;
             pn.tygia = tygia;
+            pn.tch = tch;
             db.pnhaps.InsertOnSubmit(pn);
             db.SubmitChanges();
         }
-        public void moict(string idsp, string diengiai, float sl, float dongia, string idcv, string loaithue, float thue, float chietkhau, float thanhtien, string idpnhap, string id, string tiente, float tygia, float nguyente)
+        public void moict(string idsp, string diengiai, float sl, float dongia, string idcv, string loaithue, float thue, float chietkhau, float thanhtien, string idpnhap, string id, string tiente, float tygia, float nguyente, double vhd, double tx, double vtt, double tn, double soluongcl)
         {
             pnhapct ct = new pnhapct();
 
@@ -44,12 +45,17 @@ namespace BUS
             ct.tiente = tiente;
             ct.tygia = tygia;
             ct.nguyente = nguyente;
+            ct.vhd = vhd;
+            ct.tx = tx;
+            ct.vtt = vtt;
+            ct.tn = tn;
+            ct.soluongcl = soluongcl;
             db.pnhapcts.InsertOnSubmit(ct);
             db.SubmitChanges();
         }
 
 
-        public void suapn(string id, DateTime ngaynhap, string iddt, string ghichu, int so, string loainhap, string tiente, float tygia)
+        public void suapn(string id, DateTime ngaynhap, string iddt, string ghichu, int so, string loainhap, string tiente, float tygia, double tch)
         {
             pnhap pn = (from c in db.pnhaps select c).Single(x => x.id == id);
 
@@ -60,9 +66,10 @@ namespace BUS
             pn.tiente = tiente;
             pn.tygia = tygia;
             pn.loainhap = loainhap;
+            pn.tch = tch;
             db.SubmitChanges();
         }
-        public void suact(string idsp, string diengiai, float sl, float dongia, string idcv, string loaithue, float thue, float chietkhau, float thanhtien, string idpnhap, string id, string tiente, float tygia, float nguyente)
+        public void suact(string idsp, string diengiai, float sl, float dongia, string idcv, string loaithue, float thue, float chietkhau, float thanhtien, string idpnhap, string id, string tiente, float tygia, float nguyente, double vhd, double tx, double vtt, double tn, double soluongcl)
         {
             pnhapct ct = (from c in db.pnhapcts select c).Single(x => x.id == id);
 
@@ -78,6 +85,11 @@ namespace BUS
             ct.tiente = tiente;
             ct.tygia = tygia;
             ct.nguyente = nguyente;
+            ct.vhd = vhd;
+            ct.tx = tx;
+            ct.vtt = vtt;
+            ct.tn = tn;
+            ct.soluongcl = soluongcl;
             //ct.idpnhap = idpnhap;
             //ct.id = id;
 

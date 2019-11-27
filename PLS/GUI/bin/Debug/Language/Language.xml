@@ -16095,4 +16095,32 @@ Error Number:18456,State:1,Class:14</value>
     <name>r_doanhthu.xrTableCell41</name>
     <value />
   </Language>
+  <Language>
+    <name>f_pnhap.gcchitiet.gridColumn46</name>
+    <value>VHD</value>
+  </Language>
+  <Language>
+    <name>f_pnhap.gcchitiet.gridColumn47</name>
+    <value>TX</value>
+  </Language>
+  <Language>
+    <name>f_pnhap.gcchitiet.gridColumn48</name>
+    <value>VTT</value>
+  </Language>
+  <Language>
+    <name>f_pnhap.gcchitiet.gridColumn51</name>
+    <value>TN</value>
+  </Language>
+  <Language>
+    <name>f_pnhap.gcchitiet.gridColumn52</name>
+    <value>VCL</value>
+  </Language>
+  <Language>
+    <name>f_pnhap.layoutCoGroup1</name>
+    <value xml:space="preserve"> </value>
+  </Language>
+  <Language>
+    <name>f_pnhap.layolItem31</name>
+    <value>Nhiệt độ trong bể</value>
+  </Language>
 </NewDataSet>

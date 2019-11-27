@@ -382,7 +382,7 @@ namespace GUI
 
                                 td.suatudong(check, k);
                             }
-                            pnct.moipn(txtid.Text, txtngaynhap.DateTime, txtiddt.Text, txtdv.Text, txtidnv.Text, txtghichu.Text, Convert.ToInt32(txt1.Text), txtloainhap.Text, txttiente.Text, float.Parse(txttygia.Text));
+                          //  pnct.moipn(txtid.Text, txtngaynhap.DateTime, txtiddt.Text, txtdv.Text, txtidnv.Text, txtghichu.Text, Convert.ToInt32(txt1.Text), txtloainhap.Text, txttiente.Text, float.Parse(txttygia.Text));
                             // History 
                             //hs.add(txtid.Text, "Thêm mới chứng từ - ເພີ່ມເອກະສານໃໝ່ - ERROR");
 
@@ -392,7 +392,7 @@ namespace GUI
                                 gridView1.SetRowCellValue(i, "id", txtid.Text + i);
 
                                 //edit 09/04
-                                pnct.moict(gridView1.GetRowCellValue(i, "idsanpham").ToString(), gridView1.GetRowCellValue(i, "diengiai").ToString(), float.Parse(gridView1.GetRowCellValue(i, "soluong").ToString()), 0, gridView1.GetRowCellValue(i, "idcv").ToString(), "", 0, float.Parse(gridView1.GetRowCellValue(i, "chietkhau").ToString()), 0, gridView1.GetRowCellValue(i, "idpnhap").ToString(), gridView1.GetRowCellValue(i, "id").ToString(), gridView1.GetRowCellValue(i, "tiente").ToString(), float.Parse(gridView1.GetRowCellValue(i, "tygia").ToString()), 0);
+                              //  pnct.moict(gridView1.GetRowCellValue(i, "idsanpham").ToString(), gridView1.GetRowCellValue(i, "diengiai").ToString(), float.Parse(gridView1.GetRowCellValue(i, "soluong").ToString()), 0, gridView1.GetRowCellValue(i, "idcv").ToString(), "", 0, float.Parse(gridView1.GetRowCellValue(i, "chietkhau").ToString()), 0, gridView1.GetRowCellValue(i, "idpnhap").ToString(), gridView1.GetRowCellValue(i, "id").ToString(), gridView1.GetRowCellValue(i, "tiente").ToString(), float.Parse(gridView1.GetRowCellValue(i, "tygia").ToString()), 0);
                             }
                             // History 
                             hs.add(txtid.Text, "Thêm mới chứng từ - ເພີ່ມເອກະສານໃໝ່");
@@ -427,7 +427,7 @@ namespace GUI
                     {
                         try
                         {
-                            pnct.suapn(txtid.Text, DateTime.Parse(txtngaynhap.Text), txtiddt.Text, txtghichu.Text, int.Parse(txt1.Text), txtloainhap.Text, txttiente.Text, float.Parse(txttygia.Text));
+                         //   pnct.suapn(txtid.Text, DateTime.Parse(txtngaynhap.Text), txtiddt.Text, txtghichu.Text, int.Parse(txt1.Text), txtloainhap.Text, txttiente.Text, float.Parse(txttygia.Text));
                             //hs.add(txtid.Text, "Sửa chứng từ - ດັດແກ້ເອກະສານ - ERROR");
                             //sua ct
                             LuuPhieu();

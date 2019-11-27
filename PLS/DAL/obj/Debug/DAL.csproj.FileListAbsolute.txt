@@ -242,6 +242,5 @@ F:\Solution\winform\Code\PLS_ok\Code PLS\2019\Thang 08\26082019\DAL\obj\Debug\DA
 F:\Solution\GIT\PLS\PLS\DAL\bin\Debug\DAL.dll.config
 F:\Solution\GIT\PLS\PLS\DAL\bin\Debug\DAL.dll
 F:\Solution\GIT\PLS\PLS\DAL\bin\Debug\DAL.pdb
-F:\Solution\GIT\PLS\PLS\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 F:\Solution\GIT\PLS\PLS\DAL\obj\Debug\DAL.dll
 F:\Solution\GIT\PLS\PLS\DAL\obj\Debug\DAL.pdb

@@ -38,9 +38,7 @@ namespace GUI
             rsearchTenSP.DataSource = btnmasp1.DataSource;
             btndvt.DataSource = btnmasp1.DataSource;
 
-            txttiente.Properties.DataSource = new DAL.KetNoiDBDataContext().tientes;
 
-            txttygia.Properties.Mask.EditMask = "n";
 
             btnthue1.DataSource = new DAL.KetNoiDBDataContext().thues;
             rsearchthuesuat.DataSource = btnthue1.DataSource;
@@ -60,9 +58,7 @@ namespace GUI
                 gridColumn37.Caption = "Nhóm Đối Tượng";
                 gridColumn38.Caption = "Loại Đối Tượng";
                 gridColumn39.Caption = "Địa Chỉ";
-                gridColumn46.Caption = "Tiền tệ";
-                gridColumn47.Caption = "Tỷ giá";
-                gridColumn48.Caption = "Ghi chú";
+
                 gridColumn27.Caption = "Mã Sản Phẩm";
                 gridColumn28.Caption = "Tên Sản Phẩm";
                 gridColumn29.Caption = "ĐVT";
@@ -81,9 +77,7 @@ namespace GUI
                 gridColumn37.Caption = "ກຸ່ມເປົ້າໝາຍ";
                 gridColumn38.Caption = "ປະເພດເປົ້າໝາຍ";
                 gridColumn39.Caption = "ທີ່ຢູ່";
-                gridColumn46.Caption = "ເງິນຕາ";
-                gridColumn47.Caption = "ອັດຕາ";
-                gridColumn48.Caption = "ໝາຍເຫດ";
+
                 gridColumn27.Caption = "ລະຫັດ";
                 gridColumn28.Caption = "ຜະລິດຕະພັນ";
                 gridColumn29.Caption = "ຫົວໜ່ວຍຄິດໄລ່";
@@ -111,8 +105,7 @@ namespace GUI
             txtdiachi.ReadOnly = true;
             txtidnv.ReadOnly = true;
             txtphongban.ReadOnly = true;
-            txttiente.ReadOnly = true;
-            txttygia.ReadOnly = true;
+
 
             // Enable
             txtghichu.ReadOnly = true;
@@ -136,8 +129,7 @@ namespace GUI
                 txtdv.Text = lst1.iddv;
                 txtngaynhap.DateTime = DateTime.Parse(lst1.ngaynhap.ToString());
                 txtiddt.Text = lst1.iddt;
-                txttiente.Text = lst1.tiente;
-                txttygia.Text = lst1.tygia.ToString();
+
                 txtghichu.Text = lst1.ghichu;
                 txt1.Text = lst1.so.ToString();
                 txtloainhap.Text = lst1.loainhap;
@@ -146,7 +138,7 @@ namespace GUI
             {
             }
         }
-        
+
         // phân quyền 
         protected override void OnActivated(EventArgs e)
         {
@@ -215,8 +207,7 @@ namespace GUI
                     txt1.Text = lst.a.so.ToString();
                     txtloainhap.Text = lst.a.loainhap;
                     gcchitiet.DataSource = lst.a.pnhapcts;
-                    txttiente.Text = lst.a.tiente.ToString();
-                    txttygia.Text = lst.a.tygia.ToString();
+
                 }
                 catch
                 {
@@ -255,8 +246,6 @@ namespace GUI
             lbltendt.Text = "";
             txtloainhap.Text = "";
             txtghichu.Text = "";
-            txttiente.Text = "KIP";
-            txttygia.Text = "1";
 
             //btn
             btnnew.Enabled = false;
@@ -272,8 +261,7 @@ namespace GUI
             txtngaynhap.ReadOnly = false;
             txtiddt.ReadOnly = false;
             txtloainhap.ReadOnly = false;
-            txttiente.ReadOnly = false;
-            txttygia.ReadOnly = true;
+
             gridView1.OptionsBehavior.Editable = true;
         }
 
@@ -285,7 +273,7 @@ namespace GUI
 
             gridView1.UpdateCurrentRow();
             int check1 = 0;
-            if (txtngaynhap.Text == "" || txtiddt.Text == "" || txtloainhap.Text == "" || txttiente.Text == "" || txttygia.Text == "")
+            if (txtngaynhap.Text == "" || txtiddt.Text == "" || txtloainhap.Text == "")
             {
                 Lotus.MsgBox.ShowWarningDialog("Thông tin chưa đầy đủ - Vui lòng kiểm tra lại!");
                 return;
@@ -385,16 +373,16 @@ namespace GUI
                                 td.suatudong(check, k);
 
                             }
-                            pnct.moipn(txtid.Text, txtngaynhap.DateTime, txtiddt.Text, txtdv.Text, txtidnv.Text, txtghichu.Text, Convert.ToInt32(txt1.Text), txtloainhap.Text, txttiente.Text, float.Parse(txttygia.Text));
+                            pnct.moipn(txtid.Text, txtngaynhap.DateTime, txtiddt.Text, txtdv.Text, txtidnv.Text, txtghichu.Text, Convert.ToInt32(txt1.Text), txtloainhap.Text, "KIP", 1, double.Parse(txttch.Text));
                             // History 
                             //hs.add(txtid.Text, "Thêm mới chứng từ - ເພີ່ມເອກະສານໃໝ່ - ERROR");
 
                             for (int i = 0; i <= gridView1.RowCount - 1; i++)
-                            { 
+                            {
                                 gridView1.SetRowCellValue(i, "idpnhap", txtid.Text);
                                 gridView1.SetRowCellValue(i, "id", txtid.Text + i);
 
-                                pnct.moict(gridView1.GetRowCellValue(i, "idsanpham").ToString(), gridView1.GetRowCellValue(i, "diengiai").ToString(), float.Parse(gridView1.GetRowCellValue(i, "soluong").ToString()), float.Parse(gridView1.GetRowCellValue(i, "dongia").ToString()), gridView1.GetRowCellValue(i, "idcv").ToString(), gridView1.GetRowCellValue(i, "loaithue").ToString(), float.Parse(gridView1.GetRowCellValue(i, "thue").ToString()), float.Parse(gridView1.GetRowCellValue(i, "chietkhau").ToString()), float.Parse(gridView1.GetRowCellValue(i, "thanhtien").ToString()), gridView1.GetRowCellValue(i, "idpnhap").ToString(), gridView1.GetRowCellValue(i, "id").ToString(), gridView1.GetRowCellValue(i, "tiente").ToString(), float.Parse(gridView1.GetRowCellValue(i, "tygia").ToString()), float.Parse(gridView1.GetRowCellValue(i, "nguyente").ToString()));
+                                pnct.moict(gridView1.GetRowCellValue(i, "idsanpham").ToString(), gridView1.GetRowCellValue(i, "diengiai").ToString(), float.Parse(gridView1.GetRowCellValue(i, "soluong").ToString()), float.Parse(gridView1.GetRowCellValue(i, "dongia").ToString()), gridView1.GetRowCellValue(i, "idcv").ToString(), gridView1.GetRowCellValue(i, "loaithue").ToString(), float.Parse(gridView1.GetRowCellValue(i, "thue").ToString()), float.Parse(gridView1.GetRowCellValue(i, "chietkhau").ToString()), float.Parse(gridView1.GetRowCellValue(i, "thanhtien").ToString()), gridView1.GetRowCellValue(i, "idpnhap").ToString(), gridView1.GetRowCellValue(i, "id").ToString(), gridView1.GetRowCellValue(i, "tiente").ToString(), float.Parse(gridView1.GetRowCellValue(i, "tygia").ToString()), float.Parse(gridView1.GetRowCellValue(i, "nguyente").ToString()), double.Parse(gridView1.GetRowCellValue(i, "vhd").ToString()), double.Parse(gridView1.GetRowCellValue(i, "tx").ToString()), double.Parse(gridView1.GetRowCellValue(i, "vtt").ToString()), double.Parse(gridView1.GetRowCellValue(i, "tn").ToString()), double.Parse(gridView1.GetRowCellValue(i, "soluongcl").ToString()));
                             }
                             // History 
                             hs.add(txtid.Text, "Thêm mới chứng từ - ເພີ່ມເອກະສານໃໝ່");
@@ -413,12 +401,11 @@ namespace GUI
                             txtngaynhap.ReadOnly = true;
                             txtiddt.ReadOnly = true;
                             txtloainhap.ReadOnly = true;
-                            txttiente.ReadOnly = true;
-                            txttygia.ReadOnly = true;
+
                             gridView1.OptionsBehavior.Editable = false;
                             Biencucbo.hdpn = 2;
 
-                           
+
                             ShowAlert.Alert_Add_Success(this);
                         }
                         catch (Exception ex)
@@ -430,7 +417,7 @@ namespace GUI
                     {
                         try
                         {
-                            pnct.suapn(txtid.Text, DateTime.Parse(txtngaynhap.Text), txtiddt.Text, txtghichu.Text, int.Parse(txt1.Text), txtloainhap.Text, txttiente.Text, float.Parse(txttygia.Text));
+                            pnct.suapn(txtid.Text, DateTime.Parse(txtngaynhap.Text), txtiddt.Text, txtghichu.Text, int.Parse(txt1.Text), txtloainhap.Text, "KIP", 1, double.Parse(txttch.Text));
                             //hs.add(txtid.Text, "Sửa chứng từ - ດັດແກ້ເອກະສານ - ERROR");
 
                             //sua ct
@@ -456,12 +443,11 @@ namespace GUI
                         txtngaynhap.ReadOnly = true;
                         txtiddt.ReadOnly = true;
                         txtloainhap.ReadOnly = true;
-                        txttiente.ReadOnly = true;
-                        txttygia.ReadOnly = true;
+                       
                         gridView1.OptionsBehavior.Editable = false;
                         Biencucbo.hdpn = 2;
 
-                        
+
                         ShowAlert.Alert_Edit_Success(this);
                     }
                 }
@@ -530,8 +516,7 @@ namespace GUI
                     txtngaynhap.ReadOnly = false;
                     txtiddt.ReadOnly = false;
                     txtloainhap.ReadOnly = false;
-                    txttiente.ReadOnly = false;
-                    txttygia.ReadOnly = true;
+
 
                     gridView1.OptionsBehavior.Editable = true;
                     // btn
@@ -600,8 +585,7 @@ namespace GUI
                         txtngaynhap.ReadOnly = true;
                         txtiddt.ReadOnly = true;
                         txtloainhap.ReadOnly = true;
-                        txttiente.ReadOnly = true;
-                        txttygia.ReadOnly = true;
+                       
                         gridView1.OptionsBehavior.Editable = false;
 
                         //gcchitiet.DataSource = new DAL.KetNoiDBDataContext().View_pnhapcts;
@@ -616,8 +600,7 @@ namespace GUI
                         txtloainhap.Text = "";
                         lbltendt.Text = "";
                         lbltennv.Text = "";
-                        txttiente.Text = "";
-                        txttygia.Text = "";
+                       
 
                         ShowAlert.Alert_Del_Success(this);
                     }
@@ -655,16 +638,14 @@ namespace GUI
                     txtghichu.Text = lst.ghichu;
                     txt1.Text = lst.so.ToString();
                     txtloainhap.Text = lst.loainhap;
-                    txttiente.Text = lst.tiente;
-                    txttygia.Text = lst.tygia.ToString();
+                   
                     gcchitiet.DataSource = lst.pnhapcts;
 
                     txtghichu.ReadOnly = true;
                     txtngaynhap.ReadOnly = true;
                     txtiddt.ReadOnly = true;
                     txtloainhap.ReadOnly = true;
-                    txttiente.ReadOnly = true;
-                    txttygia.ReadOnly = true;
+                    
                     gridView1.OptionsBehavior.Editable = false;
                 }
                 catch
@@ -702,6 +683,45 @@ namespace GUI
         private void gridView1_CellValueChanged(object sender, DevExpress.XtraGrid.Views.Base.CellValueChangedEventArgs e)
         {
             gridView1.PostEditor();
+            if (e.Column.FieldName == "vhd" || e.Column.FieldName == "vtt" || e.Column.FieldName == "tn" ||
+                e.Column.FieldName == "tx" || e.Column.FieldName == "idsanpham")
+            {
+                double beta = 0;
+                try
+                {
+                    if (gridView1.GetFocusedRowCellValue("idsanpham").ToString() == "Dio")
+                    {
+                        beta = 0.0009;
+                    }
+                    else if(gridView1.GetFocusedRowCellValue("idsanpham").ToString() == "Ron")
+                    {
+                        beta = 0.0013;
+                    }
+                    double a = double.Parse(gridView1.GetFocusedRowCellValue("vhd").ToString())*beta*
+                               (double.Parse(gridView1.GetFocusedRowCellValue("tn").ToString()) - double.Parse(gridView1.GetFocusedRowCellValue("tx").ToString()));
+                    if (double.Parse(gridView1.GetFocusedRowCellValue("vhd").ToString()) + a - double.Parse(gridView1.GetFocusedRowCellValue("vtt").ToString()) > 0)
+                    {
+                        gridView1.SetFocusedRowCellValue("soluong", double.Parse(gridView1.GetFocusedRowCellValue("vtt").ToString()) - a);
+                    }
+                    else
+                    {
+                        gridView1.SetFocusedRowCellValue("soluong",double.Parse(gridView1.GetFocusedRowCellValue("vhd").ToString()) );
+                    }
+
+                    if (double.Parse(txttch.Text) == 0)
+                    {
+                        gridView1.SetFocusedRowCellValue("soluongcl", 0);
+                    }
+                    else
+                    {
+                        gridView1.SetFocusedRowCellValue("soluongcl", double.Parse(gridView1.GetFocusedRowCellValue("vhd").ToString()) * beta * (double.Parse(gridView1.GetFocusedRowCellValue("tx").ToString()) - double.Parse(txttch.Text)));
+                    }
+                }
+                catch (Exception ex)
+                {
+              
+                }
+            }
             if (e.Column.FieldName == "soluong" || e.Column.FieldName == "dongia" || e.Column.FieldName == "chietkhau" || e.Column.FieldName == "loaithue" || e.Column.FieldName == "tygia")
             {
 
@@ -730,7 +750,7 @@ namespace GUI
             {
                 try
                 {
-                    gridView1.SetFocusedRowCellValue("thanhtien", (float.Parse(gridView1.GetFocusedRowCellValue("nguyente").ToString())) * (float.Parse(txttygia.Text)));
+                    gridView1.SetFocusedRowCellValue("thanhtien", (float.Parse(gridView1.GetFocusedRowCellValue("nguyente").ToString())) * 1);
                 }
                 catch (Exception)
                 {
@@ -819,6 +839,11 @@ namespace GUI
                 ct.loaithue = "";
                 ct.idcv = "";
                 ct.thue = 0;
+                ct.vhd = 0;
+                ct.vtt = 0;
+                ct.tx = 0;
+                ct.tn = 0;
+                ct.soluongcl = 0;
                 ct.thanhtien = 0;
                 ct.id = a;
                 ct.tiente = "KIP";
@@ -832,6 +857,11 @@ namespace GUI
                 gridView1.SetFocusedRowCellValue("dongia", 0);
                 gridView1.SetFocusedRowCellValue("chietkhau", 0);
                 gridView1.SetFocusedRowCellValue("thue", 0);
+                gridView1.SetFocusedRowCellValue("vhd", 0);
+                gridView1.SetFocusedRowCellValue("vtt", 0);
+                gridView1.SetFocusedRowCellValue("tn", 0);
+                gridView1.SetFocusedRowCellValue("tx", 0);
+                gridView1.SetFocusedRowCellValue("soluongcl", 0);
                 gridView1.SetFocusedRowCellValue("tygia", 1);
                 gridView1.SetFocusedRowCellValue("loaithue", "");
                 gridView1.SetFocusedRowCellValue("tiente", "KIP");
@@ -925,23 +955,39 @@ namespace GUI
             gridView1.PostEditor();
         }
 
-        private void txttiente_EditValueChanged(object sender, EventArgs e)
+        private void txttch_EditValueChanged(object sender, EventArgs e)
         {
-            if (txttiente.Text != "")
+            try
             {
-                var lst = (from a in db.tientes select a).FirstOrDefault(t => t.tiente1 == txttiente.Text);
-                txttygia.Text = lst.tygia.ToString();
-
-                for (int i = 0; i <= gridView1.RowCount - 1; i++)
+                for (int i = 0; i < gridView1.RowCount; i++)
                 {
-                    try
+                    double beta = 0;
+                    if (gridView1.GetRowCellValue(i, "idsanpham").ToString() == "Dio")
                     {
-                        gridView1.SetRowCellValue(i, "thanhtien", float.Parse(gridView1.GetRowCellValue(i, "nguyente").ToString()) * float.Parse(txttygia.Text));
+                        beta = 0.0009;
                     }
-                    catch
+                    else if (gridView1.GetRowCellValue(i, "idsanpham").ToString() == "Ron")
                     {
+                        beta = 0.0013;
+                    }
+
+                    if (double.Parse(txttch.Text) == 0)
+                    {
+                        gridView1.SetRowCellValue(i,"soluongcl", 0);
+                    }
+                    else
+                    {
+                        gridView1.SetRowCellValue(i,"soluongcl",
+                            double.Parse(gridView1.GetRowCellValue(i,"vhd").ToString())*beta*
+                            (double.Parse(gridView1.GetRowCellValue(i,"tx").ToString()) - double.Parse(txttch.Text)));
                     }
                 }
+                gridView1.UpdateCurrentRow();
+                gridView1.PostEditor();
+            }
+            catch (Exception ex)
+            {
+                
             }
         }
     }

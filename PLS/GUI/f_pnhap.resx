@@ -121,7 +121,7 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnmo.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnmo.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACt0RVh0VGl0
         bGUAT3BlbjtGb2xkZXI7QmFycztSaWJib247U3RhbmRhcmQ7TG9hZPHDxGMAAALOSURBVDhPpZN7LJVh
@@ -140,7 +140,7 @@
         TkSuQmCC
 </value>
   </data>
-  <data name="btnmo.LargeGlyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnmo.ImageOptions.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACt0RVh0VGl0
         bGUAT3BlbjtGb2xkZXI7QmFycztSaWJib247U3RhbmRhcmQ7TG9hZPHDxGMAAAfgSURBVFhHxZYJVFV1
@@ -180,7 +180,7 @@
         10epGPqvk9+a++N+AfqT34tuf3x8QPYTe6ndyZod4FAAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btnLuu.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnLuu.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAt0RVh0VGl0
         bGUAU2F2ZTv56PkJAAAC9ElEQVQ4T4WTXUiTURjHV6YhYh9WmpSSGQPBNG1tuvk65+a+nHPT6WxOt+HM
@@ -199,7 +199,7 @@
         AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="btnLuu.LargeGlyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnLuu.ImageOptions.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAt0RVh0VGl0
         bGUAU2F2ZTv56PkJAAAJQElEQVRYR8WWd1TUVxbH3ZItycYkpm39d/+Ku1FRikjvvQ0ww9AZGJgBBhh6
@@ -245,7 +245,7 @@
         rkJggg==
 </value>
   </data>
-  <data name="btnsua.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnsua.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAgdEVYdFRpdGxlAEVkaXQ7QmFycztSaWJib247U3Rh
@@ -254,7 +254,7 @@
         CaUyUv+JtDn3+jgyuKYCDYVLQhKvcSLQoOCGBVym0kswFwCbJlIIfiUIAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="btnsua.LargeGlyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnsua.ImageOptions.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAgdEVYdFRpdGxlAEVkaXQ7QmFycztSaWJib247U3Rh
@@ -266,7 +266,7 @@
         gaBw8ps3zRc04YO9+3Zd0gAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="btnxoa.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnxoa.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACB0RVh0VGl0
         bGUAUmVtb3ZlO0dyb3VwO0hlYWRlcjtEZWxldGUjfp8CAAAC20lEQVQ4T2WSa0hTYRzGl3cNqagPQdKn
@@ -285,7 +285,7 @@
         SUVORK5CYII=
 </value>
   </data>
-  <data name="btnxoa.LargeGlyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnxoa.ImageOptions.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACB0RVh0VGl0
         bGUAUmVtb3ZlO0dyb3VwO0hlYWRlcjtEZWxldGUjfp8CAAAHdUlEQVRYR6WXe1CU1xnGkyYmmkZLNGnT
@@ -323,7 +323,7 @@
         UspUyXf3dHz3v+AFXWU8MRePKb+GNfDIvwDv3A4iYAszAgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="btnin.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnin.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAOdEVYdFRpdGxlAFByaW50ZXI7579hxQAAAr9JREFU
@@ -341,7 +341,7 @@
         KpoVBFnZAQqU1Ax9Jp8Ivxi/zZ/bRBLcXa6P4Zsx/HyUCPoXA9Fvk15uVlve/joAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btnin.LargeGlyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnin.ImageOptions.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAOdEVYdFRpdGxlAFByaW50ZXI7579hxQAACE1JREFU
@@ -383,7 +383,7 @@
         HfNhGQlLqn4/eNq+jQX/BRbqweZ/Pa0K/+6HvEAAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btnload.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnload.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABF0RVh0VGl0
         bGUAUmVzZXQ7VW5kbzsTgRb/AAAA70lEQVQ4T6XTMWoCURDG8W2EWGgRC7ERDF7AVrDwAN7BRgQheAev
@@ -393,7 +393,7 @@
         6lvIIgtnxPiC/M3zSHLzE/07F90Bmo0RPdcw7NUAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btnload.LargeGlyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnload.ImageOptions.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABF0RVh0VGl0
         bGUAUmVzZXQ7VW5kbzsTgRb/AAABwklEQVRYR8XVsUuVURzGcSOQyAYjCUJwa3DQv0TbnGpqaGioIQIr
@@ -427,9 +427,6 @@
   </metadata>
   <metadata name="doituongBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>341, 56</value>
-  </metadata>
-  <metadata name="tienteBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>371, 95</value>
   </metadata>
   <metadata name="dmpnhapBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>701, 95</value>
@@ -600,7 +597,7 @@
         AAA=
 </value>
   </data>
-  <data name="btnthemmoi.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnthemmoi.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACx0RVh0VGl0
         bGUAQWRkO0l0ZW07QWRkSXRlbTtCYXJzO1JpYmJvbjtJdGVtO1BsdXNOMu+BAAAC5UlEQVQ4T2WSWUwT
@@ -619,7 +616,7 @@
         1qORatmRCLXsD78Xo8NOhM/gAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="btnthemmoi.LargeGlyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnthemmoi.ImageOptions.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACx0RVh0VGl0
         bGUAQWRkO0l0ZW07QWRkSXRlbTtCYXJzO1JpYmJvbjtJdGVtO1BsdXNOMu+BAAAHxUlEQVRYR8WWaVCU
@@ -659,7 +656,7 @@
         IG2CfIJuAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="btnreload.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnreload.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAndEVYdFRpdGxlAFJlZnJlc2g7UmVwZWF0O0JhcnM7
@@ -670,7 +667,7 @@
         AAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btnreload.LargeGlyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnreload.ImageOptions.LargeImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAndEVYdFRpdGxlAFJlZnJlc2g7UmVwZWF0O0JhcnM7
@@ -685,6 +682,9 @@
         msEP/+Ty+jngCqIAAAAASUVORK5CYII=
 </value>
   </data>
+  <metadata name="tienteBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>371, 95</value>
+  </metadata>
   <metadata name="sanphamBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>142, 17</value>
   </metadata>
